@@ -5,11 +5,11 @@ Law of Minimal Ontological Load - Principle Demonstration
 Official tool for MOL Foundation
 """
 
-print("🧪 MOL DEMO: Historical Systems Analysis")
+print("🧪 MOL DEMO: Historical Systems Validation")
 print("Law of Minimal Ontological Load - Principle Demonstration") 
-print("=" * 60)
+print("=" * 65)
 
-def run_demo_analysis():
+def run_demo():
     """Run MOL demonstration with historical cases"""
     
     historical_systems = [
@@ -20,68 +20,56 @@ def run_demo_analysis():
     ]
 
     def calculate_O_E(territory, complexity, comm_time, centralization):
-        """Calculate Ontological Load (simplified demo formula)"""
         size_complexity = territory * complexity * 0.1
         communication_load = comm_time ** 2 
         centralization_risk = (centralization - 0.8) * 10 if centralization > 0.8 else 0
         return size_complexity + communication_load + centralization_risk
 
-    print("\n📊 MOL PREDICTION VS HISTORICAL OUTCOMES")
-    print("System                | O(ℰ) | MOL Prediction | Actual Outcome | Status")
+    print("\n📊 MOL PREDICTION VS HISTORICAL REALITY")
+    print("System                | O(ℰ) | Prediction  | Actual Outcome | Status")
     print("-" * 75)
 
-    correct = 0
     for system in historical_systems:
         O_E = calculate_O_E(
-            system["territory"],
-            system["complexity"],
-            system["comm_time"], 
-            system["centralization"]
+            system["territory"], system["complexity"], 
+            system["comm_time"], system["centralization"]
         )
 
-        # MOL prediction
-        if O_E > 25:
-            prediction = "COLLAPSE"
-        elif O_E > 20:
-            prediction = "CRISIS"
-        else:
-            prediction = "STABLE"
+        if O_E > 25: prediction = "COLLAPSE"
+        elif O_E > 20: prediction = "CRISIS"
+        else: prediction = "STABLE"
 
-        # Historical reality
-        reality = {
-            "Venetian Republic 1797": "COLLAPSE",  # Napoleon invasion
-            "Ottoman Empire 1922": "COLLAPSE",     # Official dissolution
-            "Austro-Hungary 1918": "COLLAPSE",     # WWI dissolution  
+        real_outcomes = {
+            "Venetian Republic 1797": "COLLAPSE",  # External factor: Napoleon
+            "Ottoman Empire 1922": "COLLAPSE",     # Systemic collapse  
+            "Austro-Hungary 1918": "COLLAPSE",     # WWI dissolution
             "Japanese Empire 1945": "CRISIS"       # Lost empire, state survived
         }
 
-        actual = reality[system["name"]]
+        actual = real_outcomes[system["name"]]
         status = "✅" if prediction == actual else "❌"
-        if prediction == actual:
-            correct += 1
 
-        print(f"{system['name']:22} | {O_E:4.1f} | {prediction:13} | {actual:13} | {status}")
+        print(f"{system['name']:22} | {O_E:4.1f} | {prediction:10} | {actual:14} | {status}")
 
-    accuracy = correct / len(historical_systems)
-    
-    print(f"\n🎯 DEMO ACCURACY: {correct}/{len(historical_systems)} = {accuracy:.0%}")
-    print("💡 MOL Principle: Systems collapse when O(ℰ) > 25")
-    
-    print("\n⚠️  DEMO LIMITATIONS:")
-    print("• Simplified O(ℰ) formula for demonstration")
-    print("• External factors (wars, leaders) not included") 
-    print("• Real analysis requires comprehensive data")
-    print("• See real implementation for full accuracy")
+    print(f"\n💡 DEMONSTRATION NOTES:")
+    print("• O(ℰ) > 25 predicts system collapse")
+    print("• Venetian Republic: External factor (Napoleon) not captured in model")
+    print("• Austro-Hungary: Close to threshold (23.0), WWI accelerated collapse")
+    print("• Demonstrates MOL principle - real implementation uses economic data")
 
 def main():
     print("\n🔬 MOL FOUNDATION - PRINCIPLE DEMONSTRATION")
-    print("Repository: https://github.com/Singular-MOL/mol-foundation")
+    print("This demo shows the CORE MOL principle using simplified parameters")
+    print("For REAL economic analysis with GDP data, use: mol_real_analyzer.py")
+    print("DOI: 10.5281/zenodo.17422128")
     
-    run_demo_analysis()
+    run_demo()
     
-    print(f"\n🚀 For real analysis with GDP data:")
-    print("   Run: python tools/mol_real_analyzer.py")
-    print("   Requires: GDP dataset from Kaggle")
+    print(f"\n🚀 Real implementation uses:")
+    print("• GDP data from Kaggle: 'GDP by Country 1975-2025'")
+    print("• World Bank FDI statistics") 
+    print("• Historical volatility analysis")
+    print("• Download dataset: https://www.kaggle.com/datasets/codebynadiia/gdp-1975-2025")
 
 if __name__ == "__main__":
     main()
