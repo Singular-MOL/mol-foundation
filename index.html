@@ -1,104 +1,176 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The MOL Foundation | Law of Minimal Ontological Load</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #34495e; margin-top: 30px; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .section { margin: 30px 0; }
-        .update { background: #e8f4fd; padding: 15px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #3498db; }
-        .principle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin: 20px 0; }
-        .principle-card { background: #f8f9fa; padding: 15px; border-radius: 6px; border: 1px solid #e9ecef; }
-        ul { padding-left: 20px; }
-        li { margin: 8px 0; }
-        hr { border: 0; height: 1px; background: #bdc3c7; margin: 30px 0; }
+        :root {
+            --text: #2c3e50;
+            --accent: #3498db;
+            --bg-card: #f9fafb;
+            --border: #e0e6ed;
+            --bg-note: #f0f7ff;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            max-width: 820px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.65;
+            color: var(--text);
+            background-color: #fff;
+        }
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+        h2 {
+            font-size: 1.4em;
+            margin: 32px 0 16px;
+            color: #2c3e50;
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
+        }
+        p, ul {
+            margin: 12px 0;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 24px;
+        }
+        .law-statement {
+            background: var(--bg-note);
+            padding: 18px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .principle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 18px;
+            margin: 20px 0;
+        }
+        .principle-card {
+            background: var(--bg-card);
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            font-size: 0.95em;
+        }
+        .principle-card strong {
+            display: block;
+            margin-bottom: 6px;
+            color: var(--text);
+        }
+        .principle-card em {
+            color: #666;
+            font-size: 0.9em;
+        }
+        ul {
+            padding-left: 24px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eaecef;
+            margin: 40px 0;
+        }
+        footer {
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>The MOL Foundation</h1>
-    <p><i>Researching the fundamental meta-law of complexity</i></p>
 
-    <div class="update">
-        <strong>🚀 NEW: MOL v1.0 Officially Published with DOI</strong>
-        <p>Complete formalization now available with permanent citation</p>
+    <h1>Law of Minimal Ontological Load (MOL)</h1>
+    <p class="intro">A universal meta-principle of self-organization across physical, biological, cognitive, and social systems.</p>
+
+    <div class="law-statement">
+        E<sup>*</sup> = argmin O(ℰ) &nbsp;&nbsp; subject to &nbsp;&nbsp; ℐ ≥ ℐ<sub>min</sub>
     </div>
 
-    <div class="section">
-        <h2>🎯 Getting Started</h2>
-        <p>New to MOL? Start here to understand the core idea and its philosophical depth.</p>
-        <ul>
-            <li><a href="docs/MOL_Philosophical_Introduction.md">Philosophical Introduction to MOL</a> - <i>The big picture, from first principles to universal implications</i></li>
-        </ul>
-    </div>
+    <p>
+        Any stable system evolves toward a state that minimizes its <strong>ontological load</strong> — the non-functional redundancy in its descriptive framework — while preserving sufficient <strong>informational integrity</strong>.
+    </p>
 
-    <div class="section">
-        <h2>🔬 The Law of Minimal Ontological Load (MOL)</h2>
-        <p><strong>E* = argmin O(ℰ) subject to ℐ ≥ ℐ_min</strong></p>
-        <p>A universal meta-law stating that evolutionary stable states minimize internal redundancy while preserving functional integrity.</p>
-    </div>
+    <h2>Core Documents</h2>
+    <ul>
+        <li><a href="docs/MOL_Philosophical_Introduction.md">Philosophical Introduction</a> — Intuition, dialectics, and universal scope</li>
+        <li><a href="docs/MOL_Scientific_Core.md">Scientific Core</a> — Formalism, operator Φ, empirical validation</li>
+        <li><a href="https://doi.org/10.5281/zenodo.17422128">MOL Whitepaper v1.0 (PDF)</a> — Complete formalization (DOI: 10.5281/zenodo.17422128)</li>
+        <li><a href="docs/MOL_Whitepaper_v1.md">Whitepaper (Markdown)</a></li>
+    </ul>
 
-    <div class="section">
-        <h2>🧩 The Periodic Table of Meta-Principles</h2>
-        <p>A taxonomy of 11 universal principles derived from MOL, describing its mechanisms across physics, biology, and sociology.</p>
-        <div class="principle-grid">
-            <div class="principle-card">
-                <strong>DYNAMICS</strong><br>
-                PFD, PKV, PDA<br>
-                <em>Manage system transitions</em>
-            </div>
-            <div class="principle-card">
-                <strong>STRUCTURE</strong><br>
-                PFE, PLAO, PNVK<br>
-                <em>Organize hierarchical systems</em>
-            </div>
-            <div class="principle-card">
-                <strong>INFORMATION</strong><br>
-                PDK, PSR, PIPK<br>
-                <em>Process and compress meaning</em>
-            </div>
-            <div class="principle-card">
-                <strong>TIME/SYMMETRY</strong><br>
-                PAA, PID<br>
-                <em>Break symmetry, direct evolution</em>
-            </div>
+    <h2>The Periodic Table of Meta-Principles</h2>
+    <p>MOL manifests through 11 universal principles, grouped by fundamental aspects of reality:</p>
+
+    <div class="principle-grid">
+        <div class="principle-card">
+            <strong>DYNAMICS</strong>
+            PFD, PKV, PDA<br>
+            <em>Manage transitions and phase shifts</em>
         </div>
-        <p><a href="metaprinciples/detailed_descriptions.md">📖 Detailed Principles Description</a></p>
+        <div class="principle-card">
+            <strong>STRUCTURE</strong>
+            PFE, PLAO, PNVK<br>
+            <em>Organize hierarchical economies</em>
+        </div>
+        <div class="principle-card">
+            <strong>INFORMATION</strong>
+            PDK, PSR, PIPK<br>
+            <em>Encode, resonate, and collapse meaning</em>
+        </div>
+        <div class="principle-card">
+            <strong>TIME / SYMMETRY</strong>
+            PAA, PID<br>
+            <em>Break symmetry, direct evolution</em>
+        </div>
     </div>
 
-    <div class="section">
-        <h2>🔬 Experimental Evidence & Predictions</h2>
-        <ul>
-            <li><a href="research/historical_analysis.md">📊 Historical Systems Analysis</a> - MOL predicts state collapse (75% accuracy)</li>
-            <li><a href="research/thermal_coherence_prediction.md">🔥 Thermal Coherence Prediction</a> - 5x conductivity enhancement in dielectrics</li>
-            <li><a href="research/social_media_analysis.md">🌐 Social Media Lifecycle Analysis</a> - Platform collapse patterns</li>
-        </ul>
-    </div>
+    <p><a href="metaprinciples/detailed_descriptions.md">📖 Full descriptions of all principles</a></p>
 
-    <div class="section">
-        <h2>📜 Official Documents</h2>
-        <ul>
-            <li><a href="docs/MOL_Scientific_Core.md">MOL Scientific Core</a> - <i>Mathematical formalization and empirical evidence</i></li>
-            <li><a href="https://doi.org/10.5281/zenodo.17422128">MOL Whitepaper (PDF)</a> - <i>Official Release v1.0 • DOI: 10.5281/zenodo.17422128</i></li>
-            <li><a href="docs/MOL_Whitepaper_v1.md">Whitepaper (Markdown)</a></li>
-            <li><a href="PERPLEXITY_RESPONSE.md">Perplexity AI Integration Strategy</a></li>
-            <li><a href="https://github.com/Singular-MOL/mol-foundation">GitHub Repository</a></li>
-        </ul>
-    </div>
+    <h2>Empirical Evidence</h2>
+    <ul>
+        <li><strong>Biology:</strong> T4-lysozyme stability correlates with minimized O(ℰ) (r ≈ –0.76)</li>
+        <li><strong>Physics:</strong> Chladni figures emerge at low-O(ℰ) resonance points</li>
+        <li><strong>Social Systems:</strong> Distributed institutions show lower coordination costs</li>
+        <li><strong>Cognition:</strong> Placebo effect as an ontological plane shift</li>
+        <li><strong>History:</strong> 75% accuracy predicting state collapse when O(ℰ) > 25</li>
+    </ul>
 
-    <div class="section">
-        <h2>🛠 Tools & Implementation</h2>
-        <p>Phase Field Diagnostics simulator and analysis tools (coming soon)</p>
-    </div>
+    <h2>Research & Tools</h2>
+    <ul>
+        <li><a href="research/">Research Repository</a> — Case studies and predictions</li>
+        <li><a href="https://github.com/Singular-MOL/mol-foundation">GitHub</a> — Source code and documentation</li>
+        <li>Phase Field Diagnostics simulator (in development)</li>
+    </ul>
 
-    <div class="section">
-        <h2>🌐 About Us</h2>
-        <p>We are an independent research group dedicated to formalizing and applying the Law of Minimal Ontological Load across disciplines.</p>
-    </div>
+    <h2>About the Foundation</h2>
+    <p>We are an independent research group formalizing and applying MOL as a unifying framework for complex systems.</p>
 
     <hr>
-    <p>Contact: rudiiik@yandex.ru | <a href="https://github.com/Singular-MOL/mol-foundation">GitHub</a></p>
+    <footer>
+        Contact: <a href="mailto:rudiiik@yandex.ru">rudiiik@yandex.ru</a> | 
+        <a href="https://github.com/Singular-MOL/mol-foundation">GitHub</a>
+    </footer>
+
 </body>
 </html>
