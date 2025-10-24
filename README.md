@@ -75,8 +75,8 @@ MOL реализуется через **оператор смены онтоло
 | Документ | Тип | DOI |
 |----------|-----|-----|
 | **MOL Whitepaper v1.0** | Working paper | [10.5281/zenodo.17422128](https://doi.org/10.5281/zenodo.17422128) |
-| **Mathematical Formalization** | Publication | [10.5281/zenodo.17438159](https://doi.org/10.5281/zenodo.17438159) |
-| **Philosophical Foundations** | Publication | [10.5281/zenodo.17438160](https://doi.org/10.5281/zenodo.17438160) |
+| **Philosophical Foundations** | Publication | [10.5281/zenodo.17438159](https://doi.org/10.5281/zenodo.17438159) |
+| **Mathematical Formalization** | Publication | [10.5281/zenodo.17438280](https://doi.org/10.5281/zenodo.17438280) |
 
 **Локальные версии в репозитории:**
 - [📄 Whitepaper](docs/MOL_Whitepaper_v1.md)
