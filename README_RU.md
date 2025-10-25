@@ -57,9 +57,9 @@ MOL реализуется через оператор смены онтолог
 ### 🚀 Количественные Прогнозы
 
 - 📊 [**Исторический анализ**](research/historical_analysis.md) - Предсказание коллапса государств с точностью 75%
-- 🔬 [**Материаловедение**](research/materials_science.md) - 5-кратное улучшение теплопроводности в наноструктурах  
-- 🌐 [**Социальные платформы**](research/social_platforms.md) - Моделирование жизненных циклов согласно MOL-переходам
-- 📈 [**Все исследования**](research/) - Полный архив эмпирических данных и прогнозов
+- 🔬 [**Тепловая когерентность**](research/thermal_coherence_prediction.md) - 5-кратное улучшение теплопроводности в наноструктурах  
+- 🌐 [**Анализ социальных медиа**](research/social_media_analysis.md) - Моделирование жизненных циклов согласно MOL-переходам
+- 📈 [**Все исследования**](research/) - Полный архив эмпирических данных и прогнозов 
 
 ## 📚 Официальные публикации
 
@@ -96,25 +96,15 @@ MOL реализуется через оператор смены онтолог
 - Предсказание точек бифуркации в сложных системах
 
 ## 🏗 Структура репозитория
-```
 
 /mol-foundation
-├──/docs/                    # Официальная документация
-├──/research/               # Эмпирические исследования и прогнозы
-│├── historical_analysis.md
-│├── materials_science.md
-│├── social_platforms.md
-│└── thermal_coherence_prediction.md
-├──/metaprinciples/         # Детальные описания 11 принципов MOL
-│├── MOL_Principles_Guide.md
-│├── MOL_Principles_Guide.pdf
-│   ├── full_principles_guide.md
-│└── full_principles_guide_RU.md
-├──/tools/                  # Инструменты анализа O(ℰ)
-├──PERPLEXITY_RESPONSE.md   # Стратегия интеграции
-└──index.html              # Веб-сайт проекта
+├──/docs/                    # Official documentation
+├──/research/               # Empirical research and predictions
+├──/metaprinciples/         # Detailed descriptions of 11 MOL principles
+├──/tools/                  # O(ℰ) analysis tools
+├──PERPLEXITY_RESPONSE.md   # Integration strategy
+└──index.html              # Project website
 
-```
 
 ## 🌐 О проекте
 
