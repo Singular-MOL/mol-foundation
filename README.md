@@ -30,7 +30,7 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 
 [📖 **Quick Reference**](metaprinciples/MOL_Principles_Guide.md) - Concise overview of all 11 principles
 
-[📚 **Complete Guide**](metaprinciples/full_principles_guide.md) - **NEW**: Full detailed descriptions with diagnostic matrices and practical examples
+[📚 **Complete Guide**](metaprinciples/full_principles_guide.md) - Full detailed descriptions with diagnostic matrices and practical examples
 
 ## 🔬 Empirical Evidence and Predictions
 
@@ -53,9 +53,9 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 - Transition to a plane where symptoms are no longer interpreted as pathology
 
 ### 🚀 Quantitative Predictions
-- **📊 Historical Analysis**: Prediction of state collapse with 75% accuracy - [research/historical_analysis.md](research/historical_analysis.md)
-- **🔬 Materials Science**: 5x improvement in thermal conductivity in nanostructures - [research/thermal_coherence_prediction.md](research/thermal_coherence_prediction.md)  
-- **🌐 Social Platforms**: Lifecycle modeling according to MOL transitions - [research/social_media_analysis.md](research/social_media_analysis.md)
+- **[📊 Historical Analysis](research/historical_analysis.md)** - Prediction of state collapse with 75% accuracy
+- **[🔬 Materials Science](research/thermal_coherence_prediction.md)** - 5x improvement in thermal conductivity in nanostructures  
+- **[🌐 Social Platforms](research/social_media_analysis.md)** - Lifecycle modeling according to MOL transitions
 
 ## 📚 Official Publications
 
@@ -66,87 +66,60 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 | Mathematical Formalization | Publication | [10.5281/zenodo.17438280](https://doi.org/10.5281/zenodo.17438280) |
 | Principles Guide & Meta-Principles Table | Publication | [10.5281/zenodo.17439702](https://doi.org/10.5281/zenodo.17439702) |
 
-### Local versions in repository:
-- **📄 Whitepaper** - [docs/MOL_Whitepaper_v1.md](docs/MOL_Whitepaper_v1.md)
-- **🎯 Philosophical Introduction** - [docs/MOL_Philosophical_Introduction.md](docs/MOL_Philosophical_Introduction.md)
-- **🔬 Scientific Core** - [docs/MOL_Scientific_Core.md](docs/MOL_Scientific_Core.md)
-- **🧩 Principles Guide** - [metaprinciples/](metaprinciples/)
-- **🛠 Tools and Implementation** - [tools/](tools/)
+**Local versions in repository:**
+- [📄 Whitepaper](docs/MOL_Whitepaper_v1.md)
+- [🎯 Philosophical Introduction](docs/MOL_Philosophical_Introduction.md)
+- [🔬 Scientific Core](docs/MOL_Scientific_Core.md)
+- [🧩 Principles Guide](metaprinciples/)
 
 ## 🛠 Tools and Implementation
 
-```bash
-# MOL analysis tools
-python tools/mol_demo.py          # MOL principles demonstration
-python tools/mol_real_analyzer.py # Real systems analyzer
-See tools/DATA_INSTRUCTIONS.md for detailed instructions and data requirements.
+- [mol_demo.py](tools/mol_demo.py) - MOL principles demonstration
+- [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Real systems analyzer
+- [Data Instructions](tools/DATA_INSTRUCTIONS.md)
 
-🎯 Practical Significance
+## 🎯 Practical Significance
 
-For Researchers:
+**For Researchers:**
+- Predictive power criterion for complex system models
+- Universal stability metric O(ℰ) for systems of any scale
+- Contradiction resolution mechanism through operator Φ
 
-· Predictive power criterion for complex system models
-· Universal stability metric O(ℰ) for systems of any scale
-· Contradiction resolution mechanism through operator Φ
+**For Applied Tasks:**
+- Architecture optimization (neural networks, software systems)
+- Design of sustainable institutions and social structures
+- Prediction of bifurcation points in complex systems
 
-For Applied Tasks:
+## 🏗 Repository Structure
+```
 
-· Architecture optimization (neural networks, software systems)
-· Design of sustainable institutions and social structures
-· Prediction of bifurcation points in complex systems
-
-🏗 Repository Structure
 /mol-foundation
-├── /docs/                    # Official documentation
-│   ├── MOL_Whitepaper_v1.md
-│   ├── MOL_Philosophical_Introduction.md
-│   ├── MOL_Scientific_Core.md
-│   └── *.pdf versions
-├── /research/               # Empirical research and predictions
-│   ├── historical_analysis.md
-│   ├── social_media_analysis.md
-│   ├── thermal_coherence_prediction.md
-│   └── .gitkeep
-├── /metaprinciples/         # Detailed descriptions of 11 MOL principles
-│   ├── MOL_Principles_Guide.md      # Quick reference
-│   ├── full_principles_guide.md     # Complete detailed guide (NEW)
-│   ├── full_principles_guide_RU.md  # Russian detailed guide
-│   └── *.pdf versions
-├── /tools/                  # O(ℰ) analysis tools
-│   ├── mol_demo.py
-│   ├── mol_real_analyzer.py
-│   ├── DATA_INSTRUCTIONS.md
-│   └── .gitkeep
-├── PERPLEXITY_RESPONSE.md   # Integration strategy
-├── index.html              # Project website
-├── README.md               # English (main)
-└── README_RU.md            # Russian
-Language Versions:
+├──/docs/                    # Official documentation
+├──/research/               # Empirical research and predictions
+├──/metaprinciples/         # Detailed descriptions of 11 MOL principles
+├──/tools/                  # O(ℰ) analysis tools
+├──PERPLEXITY_RESPONSE.md   # Integration strategy
+└──index.html              # Project website
 
-· README.md - English (main)
-· README_RU.md - Russian
-· /metaprinciples/full_principles_guide_RU.md - Russian detailed guide
+```
 
-🌐 About the Project
-
+## 🌐 About the Project
 The MOL Foundation — independent research group dedicated to formalizing and applying the Law of Minimal Ontological Load.
 
 MOL is not just a theory, but a tool for predicting stability in systems of any scale.
 
-🤝 Collaboration
-
+## 🤝 Collaboration
 We are open to collaboration with research groups for testing MOL in new subject areas:
 
-· Bioinformatics and protein structure prediction
-· Materials science and synthesis of new phases
-· Sociodynamics and analysis of institutional stability
-· Artificial intelligence and neural network architecture optimization
+- Bioinformatics and protein structure prediction
+- Materials science and synthesis of new phases
+- Sociodynamics and analysis of institutional stability
+- Artificial intelligence and neural network architecture optimization
 
-📧 Contacts: rudiiik@yandex.ru
-🌐 Website: The MOL Foundation
-💾 Repository: github.com/Singular-MOL/mol-foundation
+**📧 Contacts**: rudiiik@yandex.ru  
+**🌐 Website**: [The MOL Foundation](https://singular-mol.github.io/mol-foundation/)  
+**💾 Repository**: [github.com/Singular-MOL/mol-foundation](https://github.com/Singular-MOL/mol-foundation)
 
 ---
-"MOL describes not only what happens, but why it happens exactly this way: because reality prefers the most economical ways of being, minimizing cognitive-functional friction."
 
-```
+> "MOL describes not only what happens, but why it happens exactly this way: because reality prefers the most economical ways of being, minimizing cognitive-functional friction."
