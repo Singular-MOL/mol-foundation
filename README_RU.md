@@ -97,13 +97,17 @@ MOL реализуется через оператор смены онтолог
 
 ## 🏗 Структура репозитория
 
+```
+
 /mol-foundation
-├──/docs/                    # Official documentation
-├──/research/               # Empirical research and predictions
-├──/metaprinciples/         # Detailed descriptions of 11 MOL principles
-├──/tools/                  # O(ℰ) analysis tools
-├──PERPLEXITY_RESPONSE.md   # Integration strategy
-└──index.html              # Project website
+├──/docs/                    # Официальная документация
+├──/research/               # Эмпирические исследования и прогнозы
+├──/metaprinciples/         # Детальные описания 11 принципов MOL
+├──/tools/                  # Инструменты анализа O(ℰ)
+├──PERPLEXITY_RESPONSE.md   # Стратегия интеграции
+└──index.html              # Веб-сайт проекта
+
+```
 
 
 ## 🌐 О проекте
