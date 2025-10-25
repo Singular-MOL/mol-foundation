@@ -72,9 +72,9 @@ MOL реализуется через оператор смены онтолог
 
 ### Локальные версии в репозитории:
 
-- 📄 [Whitepaper](docs/whitepaper.md)
-- 🎯 [Философское введение](docs/philosophical_foundations.md)  
-- 🔬 [Научное ядро](docs/mathematical_formalization.md)
+- 📄 [Whitepaper](docs/MOL_Whitepaper_v1.md)
+- 🎯 [Философское введение](docs/MOL_Philosophical_Introduction.md)  
+- 🔬 [Научное ядро](docs/MOL_Scientific_Core.md)
 - 🧩 [Principles Guide](metaprinciples/full_principles_guide_RU.md)
 
 ## 🛠 Инструменты и реализация
