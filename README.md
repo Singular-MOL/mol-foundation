@@ -59,11 +59,9 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 - Transition to a plane where symptoms are no longer interpreted as pathology
 
 ### 🚀 Quantitative Predictions
-- **📊 Historical Analysis**: Prediction of state collapse with 75% accuracy
-- **🔬 Materials Science**: 5x improvement in thermal conductivity in nanostructures  
-- **🌐 Social Platforms**: Lifecycle modeling according to MOL transitions
-
-**[📈 All research](./research/)**
+- **📊 Historical Analysis**: Prediction of state collapse with 75% accuracy - [`/research/historical_analysis.md`](./research/historical_analysis.md)
+- **🔬 Materials Science**: 5x improvement in thermal conductivity in nanostructures - [`/research/thermal_coherence_prediction.md`](./research/thermal_coherence_prediction.md)  
+- **🌐 Social Platforms**: Lifecycle modeling according to MOL transitions - [`/research/social_media_analysis.md`](./research/social_media_analysis.md)
 
 ## 📚 Official Publications
 
@@ -75,9 +73,9 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 | Principles Guide & Meta-Principles Table | Publication | 10.5281/zenodo.17439702 |
 
 ### Local versions in repository:
-- **📄 Whitepaper** - [`/docs/whitepaper.md`](./docs/whitepaper.md)
-- **🎯 Philosophical Introduction** - [`/docs/philosophical_foundations.md`](./docs/philosophical_foundations.md)
-- **🔬 Scientific Core** - [`/docs/mathematical_formalization.md`](./docs/mathematical_formalization.md)
+- **📄 Whitepaper** - [`/docs/MOL_Whitepaper_v1.md`](./docs/MOL_Whitepaper_v1.md)
+- **🎯 Philosophical Introduction** - [`/docs/MOL_Philosophical_Introduction.md`](./docs/MOL_Philosophical_Introduction.md)
+- **🔬 Scientific Core** - [`/docs/MOL_Scientific_Core.md`](./docs/MOL_Scientific_Core.md)
 - **🧩 Principles Guide** - [`/metaprinciples/`](./metaprinciples/)
 - **🛠 Tools and Implementation** - [`/tools/`](./tools/)
 
@@ -85,9 +83,9 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 
 ```bash
 # MOL analysis tools
-python mol_demo.py          # MOL principles demonstration
-python mol_real_analyzer.py # Real systems analyzer
-See /tools/README.md for detailed instructions and data requirements.
+python tools/mol_demo.py          # MOL principles demonstration
+python tools/mol_real_analyzer.py # Real systems analyzer
+See /tools/DATA_INSTRUCTIONS.md for detailed instructions and data requirements.
 
 🎯 Practical Significance
 
@@ -104,20 +102,31 @@ For Applied Tasks:
 · Prediction of bifurcation points in complex systems
 
 🏗 Repository Structure
-
-```
 /mol-foundation
-├── /docs                    # Official documentation
-├── /research               # Empirical research and predictions
-├── /metaprinciples         # Detailed descriptions of 11 MOL principles
+├── /docs/                    # Official documentation
+│   ├── MOL_Whitepaper_v1.md
+│   ├── MOL_Philosophical_Introduction.md
+│   ├── MOL_Scientific_Core.md
+│   └── *.pdf versions
+├── /research/               # Empirical research and predictions
+│   ├── historical_analysis.md
+│   ├── social_media_analysis.md
+│   ├── thermal_coherence_prediction.md
+│   └── .gitkeep
+├── /metaprinciples/         # Detailed descriptions of 11 MOL principles
 │   ├── MOL_Principles_Guide.md      # Quick reference
 │   ├── full_principles_guide.md     # Complete detailed guide (NEW)
-│   └── *.pdf              # PDF versions
-├── /tools                  # O(ℰ) analysis tools
-├── PERPLEXITY_RESPONSE.md  # Integration strategy
-└── index.html             # Project website
-```
-
+│   ├── full_principles_guide_RU.md  # Russian detailed guide
+│   └── *.pdf versions
+├── /tools/                  # O(ℰ) analysis tools
+│   ├── mol_demo.py
+│   ├── mol_real_analyzer.py
+│   ├── DATA_INSTRUCTIONS.md
+│   └── .gitkeep
+├── PERPLEXITY_RESPONSE.md   # Integration strategy
+├── index.html              # Project website
+├── README.md               # English (main)
+└── README_RU.md            # Russian
 Language Versions:
 
 · README.md - English (main)
@@ -144,7 +153,6 @@ We are open to collaboration with research groups for testing MOL in new subject
 💾 Repository: github.com/Singular-MOL/mol-foundation
 
 ---
-
 "MOL describes not only what happens, but why it happens exactly this way: because reality prefers the most economical ways of being, minimizing cognitive-functional friction."
 
 ```
