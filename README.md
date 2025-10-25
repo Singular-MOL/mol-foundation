@@ -1,152 +1,153 @@
-# Закон Минимальной Онтологической Нагрузки (MOL)
+# Law of Minimal Ontological Load (MOL)
 
-**Универсальный мета-принцип направленной самоорганизации сложных систем**
+**Universal meta-principle of directed self-organization in complex systems**
 
-MOL объясняет фундаментальную проблему современной науки: почему рост структуры Вселенной не приводит к хаосу, а порождает устойчивые, когерентные и функционально значимые конфигурации — от атомов и белков до живых организмов, когнитивных систем и социальных институтов.
+MOL explains the fundamental problem of modern science: why the growth of the Universe's structure does not lead to chaos, but instead produces stable, coherent, and functionally significant configurations - from atoms and proteins to living organisms, cognitive systems, and social institutions.
 
 ---
 
-## 🎯 Фундаментальный Принцип
+## 🎯 Fundamental Principle
 
-**Закон MOL утверждает:** Любая устойчивая система эволюционирует к состоянию с минимальной онтологической нагрузкой ($O(\mathcal{E})$) при сохранении функциональной целостности ($\mathcal{I} \geq \mathcal{I}_{\min}$).
+**MOL states:** Any stable system evolves toward a state with minimal ontological load ($O(\mathcal{E})$) while preserving functional integrity ($\mathcal{I} \geq \mathcal{I}_{\min}$).
 
 $$
-E^* = \arg\min O(\mathcal{E}) \quad \text{при условиях:} \quad \mathcal{I} \geq \mathcal{I}_{\min}, \quad C \geq C_{\min}
+E^* = \arg\min O(\mathcal{E}) \quad \text{subject to:} \quad \mathcal{I} \geq \mathcal{I}_{\min}, \quad C \geq C_{\min}
 $$
 
-где:
-- $\mathcal{E}$ — операциональная онтология системы
-- $O(\mathcal{E})$ — мера нефункциональной избыточности  
-- $\mathcal{I}$ — информационная/функциональная целостность
-- $C$ — топологическая связность
+where:
+- $\mathcal{E}$ — operational ontology of the system
+- $O(\mathcal{E})$ — measure of non-functional redundancy  
+- $\mathcal{I}$ — informational/functional integrity
+- $C$ — topological connectivity
 
-> *"Реальность предпочитает самый экономный способ бытия."*
-
----
-
-## 🧩 Периодическая Таблица Мета-Принципов
-
-MOL реализуется через **оператор смены онтологической плоскости** ($\Phi$) и систему из 11 универсальных принципов:
-
-| Категория | Принципы | Функция |
-|-----------|----------|---------|
-| **🔄 ДИНАМИКА** (Процесс $\Phi$) | ПФД, ПКВ, ПДА | Управление переходами и фазовыми скачками |
-| **🏛️ СТРУКТУРА** (Пространство) | ПФЭ, ПЛАО, ПНВК | Организация иерархических систем и экономия |
-| **💡 ИНФОРМАЦИЯ** (Сущность) | ПДК, ПСР, ПИПК | Обработка, сжатие и стабилизация информации |
-| **⏳ ВРЕМЯ/СИММЕТРИЯ** (Начало) | ПАА, ПИД | Нарушение симметрии и направленность эволюции |
-
-[📖 Полная таблица и детальные описания всех 11 принципов](metaprinciples/MOL_Principles_Guide.md)
+> *"Reality prefers the most economical way of being."*
 
 ---
 
-## 🔬 Эмпирические Доказательства и Прогнозы
+## 🧩 Periodic Table of Meta-Principles
 
-### ✅ Проверенные Приложения
+MOL is implemented through the **ontological plane shift operator** ($\Phi$) and a system of 11 universal principles:
 
-#### 🧬 Биология: T4-лизоцим
-- **Сильная отрицательная корреляция** ($r \approx -0.76$) между термодинамической устойчивостью и $O(\mathcal{E})$
-- Белки эволюционируют к **минимизации избыточной сложности** при сохранении функции
+| Category | Principles | Function |
+|----------|------------|----------|
+| **🔄 DYNAMICS** (Process $\Phi$) | PFD, PKV, PDA | Managing transitions and phase jumps |
+| **🏛️ STRUCTURE** (Space) | PFE, PLAO, PNVK | Organizing hierarchical systems and economy |
+| **💡 INFORMATION** (Essence) | PDK, PSR, PIPK | Processing, compressing, and stabilizing information |
+| **⏳ TIME/SYMMETRY** (Beginning) | PAA, PID | Symmetry breaking and evolutionary directionality |
 
-#### ⚛️ Физика: Фигуры Хладни  
-- Сложные устойчивые узоры возникают только при **$O(\mathcal{E}) \approx 0.40–0.45$** (локальный минимум)
-- Демонстрация перехода в **новую онтологическую плоскость**
-
-#### 🏛️ Социодинамика
-- Распределённые институты демонстрируют более низкую онтологическую нагрузку координации
-- Исторический анализ показывает корреляцию между $O(\mathcal{E})$ и устойчивостью социальных систем
-
-#### 🧠 Когнитивные науки: Эффект плацебо
-- Смена онтологической модели болезни напрямую влияет на биологию
-- Переход в плоскость, где симптомы более не интерпретируются как патология
-
-### 🚀 Количественные Прогнозы
-
-- **📊 Исторический анализ:** Предсказание коллапса государств с точностью **75%**
-- **🔬 Материаловедение:** 5-кратное улучшение теплопроводности в наноструктурах  
-- **🌐 Социальные платформы:** Моделирование жизненных циклов согласно MOL-переходам
-
-[📈 Все исследования](research/)
+[📖 Complete table and detailed descriptions of all 11 principles](metaprinciples/MOL_Principles_Guide.md)
 
 ---
 
-## 📚 Официальные публикации
+## 🔬 Empirical Evidence and Predictions
 
-| Документ | Тип | DOI |
-|----------|-----|-----|
+### ✅ Verified Applications
+
+#### 🧬 Biology: T4-lysozyme
+- **Strong negative correlation** ($r \approx -0.76$) between thermodynamic stability and $O(\mathcal{E})$
+- Proteins evolve toward **minimization of excess complexity** while preserving function
+
+#### ⚛️ Physics: Chladni Figures  
+- Complex stable patterns emerge only at **$O(\mathcal{E}) \approx 0.40–0.45$** (local minimum)
+- Demonstration of transition to a **new ontological plane**
+
+#### 🏛️ Sociodynamics
+- Distributed institutions demonstrate lower ontological coordination load
+- Historical analysis shows correlation between $O(\mathcal{E})$ and social system stability
+
+#### 🧠 Cognitive Sciences: Placebo Effect
+- Shifting ontological model of disease directly affects biology
+- Transition to a plane where symptoms are no longer interpreted as pathology
+
+### 🚀 Quantitative Predictions
+
+- **📊 Historical Analysis:** Prediction of state collapse with **75% accuracy**
+- **🔬 Materials Science:** 5x improvement in thermal conductivity in nanostructures  
+- **🌐 Social Platforms:** Lifecycle modeling according to MOL transitions
+
+[📈 All research](research/)
+
+---
+
+## 📚 Official Publications
+
+| Document | Type | DOI |
+|----------|------|-----|
 | **MOL Whitepaper v1.0** | Working paper | [10.5281/zenodo.17422128](https://doi.org/10.5281/zenodo.17422128) |
 | **Philosophical Foundations** | Publication | [10.5281/zenodo.17438159](https://doi.org/10.5281/zenodo.17438159) |
 | **Mathematical Formalization** | Publication | [10.5281/zenodo.17438280](https://doi.org/10.5281/zenodo.17438280) |
 | **Principles Guide & Meta-Principles Table** | Publication | [10.5281/zenodo.17439702](https://doi.org/10.5281/zenodo.17439702) |
 
-**Локальные версии в репозитории:**
+**Local versions in repository:**
 - [📄 Whitepaper](docs/MOL_Whitepaper_v1.md)
-- [🎯 Философское введение](docs/MOL_Philosophical_Introduction.md)  
-- [🔬 Научное ядро](docs/MOL_Scientific_Core.md)
+- [🎯 Philosophical Introduction](docs/MOL_Philosophical_Introduction.md)  
+- [🔬 Scientific Core](docs/MOL_Scientific_Core.md)
 - [🧩 Principles Guide](metaprinciples/MOL_Principles_Guide.md)
 
 ---
 
-## 🛠 Инструменты и реализация
+## 🛠 Tools and Implementation
 
-- [mol_demo.py](tools/mol_demo.py) - Демонстрация принципов MOL
-- [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Анализатор реальных систем
-- [Инструкции по данным](tools/DATA_INSTRUCTIONS.md)
-
----
-
-## 🎯 Практическая значимость
-
-### Для исследователей:
-- **Критерий предсказательной силы** для моделей сложных систем
-- **Универсальная метрика устойчивости** $O(\mathcal{E})$ для систем любого масштаба
-- **Механизм разрешения противоречий** через оператор $\Phi$
-
-### Для прикладных задач:
-- **Оптимизация архитектур** (нейросети, программные системы)
-- **Проектирование устойчивых институтов** и социальных структур  
-- **Предсказание точек бифуркации** в сложных системах
+- [mol_demo.py](tools/mol_demo.py) - MOL principles demonstration
+- [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Real systems analyzer
+- [Data Instructions](tools/DATA_INSTRUCTIONS.md)
 
 ---
 
-## 🏗 Структура репозитория
+## 🎯 Practical Significance
+
+### For Researchers:
+- **Predictive power criterion** for complex system models
+- **Universal stability metric** $O(\mathcal{E})$ for systems of any scale
+- **Contradiction resolution mechanism** through operator $\Phi$
+
+### For Applied Tasks:
+- **Architecture optimization** (neural networks, software systems)
+- **Design of sustainable institutions** and social structures  
+- **Prediction of bifurcation points** in complex systems
+
+---
+
+## 🏗 Repository Structure
 ```
 
 /mol-foundation
-├──/docs                    # Официальная документация
-├──/research               # Эмпирические исследования и прогнозы
-├── /metaprinciples         # Детальные описания 11 принципов MOL
-│├── MOL_Principles_Guide.md
-│├── MOL_Principles_Guide.pdf
-│└── full_principles_guide.md
-├──/tools                  # Инструменты анализа O(ℰ)
-├──PERPLEXITY_RESPONSE.md  # Стратегия интеграции
-└──index.html             # Веб-сайт проекта
+├──/docs                    # Official documentation
+├──/research               # Empirical research and predictions
+├──/metaprinciples         # Detailed descriptions of 11 MOL principles
+├──/tools                  # O(ℰ) analysis tools
+├──PERPLEXITY_RESPONSE.md  # Integration strategy
+└──index.html             # Project website
 
 ```
 
----
-
-## 🌐 О проекте
-
-**The MOL Foundation** — независимая исследовательская группа, посвящённая формализации и применению Закона Минимальной Онтологической Нагрузки.
-
-**MOL — это не просто теория, а инструмент для предсказания устойчивости в системах любого масштаба.**
+**Language Versions:**
+- `README.md` - English (main)
+- `README_RU.md` - Russian
 
 ---
 
-## 🤝 Сотрудничество
+## 🌐 About the Project
 
-Мы открыты для сотрудничества с исследовательскими группами для апробации MOL в новых предметных областях:
+**The MOL Foundation** — independent research group dedicated to formalizing and applying the Law of Minimal Ontological Load.
 
-- Биоинформатика и предсказание белковых структур
-- Материаловедение и синтез новых фаз
-- Социодинамика и анализ институциональной устойчивости  
-- Искусственный интеллект и оптимизация архитектур нейросетей
-
-**📧 Контакты:** rudiiik@yandex.ru  
-**🌐 Веб-сайт:** [The MOL Foundation](https://singular-mol.github.io/mol-foundation/)  
-**💾 Репозиторий:** [github.com/Singular-MOL/mol-foundation](https://github.com/Singular-MOL/mol-foundation)
+**MOL is not just a theory, but a tool for predicting stability in systems of any scale.**
 
 ---
 
-*«MOL описывает не только что происходит, но и почему это происходит именно так: потому что реальность предпочитает самые экономные способы бытия, минимизирующие когнитивно-функциональное трение.»*
+## 🤝 Collaboration
+
+We are open to collaboration with research groups for testing MOL in new subject areas:
+
+- Bioinformatics and protein structure prediction
+- Materials science and synthesis of new phases
+- Sociodynamics and analysis of institutional stability  
+- Artificial intelligence and neural network architecture optimization
+
+**📧 Contacts:** rudiiik@yandex.ru  
+**🌐 Website:** [The MOL Foundation](https://singular-mol.github.io/mol-foundation/)  
+**💾 Repository:** [github.com/Singular-MOL/mol-foundation](https://github.com/Singular-MOL/mol-foundation)
+
+---
+
+*«MOL describes not only what happens, but why it happens exactly this way: because reality prefers the most economical ways of being, minimizing cognitive-functional friction.»*
