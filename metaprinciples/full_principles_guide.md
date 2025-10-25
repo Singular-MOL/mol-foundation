@@ -419,3 +419,170 @@ In a world where scalability becomes key to survival, the Principle of Fractal E
 
 ---
 
+### **Principle of Local Ontological Autonomy (PLAO)**
+
+*Universal principle of creating local autonomies to minimize ontological load*
+
+*A scientific and practical memorandum based on the MOL meta-law*
+
+**Abstract**
+
+This paper presents the Principle of Local Ontological Autonomy (PLAO) - a structural consequence of the Law of Minimum Ontological Load (MOL). PLAO postulates that complex systems create local, autonomous rules and boundaries to achieve maximum internal economy of O(ℰ). This principle explains the emergence of autopoiesis in biology, institution formation in sociology, and modularity in technology, providing a basis for designing decentralized, sustainable systems.
+
+**1. Introduction: The Problem of Global Load**
+
+As systems complexify, submission only to general, global laws (e.g., physics) becomes ontologically disadvantageous. High O(ℰ) of the general plane makes maintaining ℐ_min (functional integrity) inefficient.
+
+PLAO postulates: In response to growing O(ℰ) of general ontology ℰ_global, the system performs a dialectical transition (Φ) and creates its own, locally-closed ontology (ℰ_local) with unique, emergent laws.
+
+The goal of ℰ_local is to ensure ℐ_min with minimally possible internal O(ℰ), shifting the complexity of general laws to its boundary (membrane, interface).
+
+**2. Theoretical Foundation: Creating Sub-Ontologies for Economy**
+
+MOL requires that the system's target state is:
+
+E* = argmin O(ℰ) subject to: ℐ ≥ ℐ_min
+
+PLAO is a localization strategy for Φ:
+
+Local system ℰ_local achieves min O(ℰ) because its internal rules (L_local) are simpler and less loaded for maintaining ℐ_min than global L_global:
+
+O(ℰ_local) ≪ O(ℰ_global) subject to L_local ⊂ L_global
+
+Where autopoiesis (self-creation/self-maintenance) is the most economical form of L_local.
+
+**3. Core Method: Diagnostic Parameters of Autonomy**
+
+PLAO action is diagnosed through two key parameters:
+
+1. **Emergent Difference Coefficient (K_emer)**
+   - **What it measures:** Difference between complexity of predicting ℰ_local behavior based only on L_global and complexity of prediction based on L_local
+   - **How to interpret:** High K_emer - proof of PLAO: ℰ_local effectively reduced O(ℰ) by creating simpler, autonomous rules
+
+2. **Topological Closure (T_Z)**
+   - **What it measures:** Degree to which ℰ_local controls information and energy exchange with its external environment
+   - **How to interpret:** High T_Z (e.g., cell membrane) - physical manifestation of PLAO: system actively protects its internal economy from external O(ℰ)
+
+**4. PLAO Diagnostic Matrix**
+
+| System State | Coefficient K_emer | Topological Closure T_Z | Recommendation |
+|--------------|-------------------|------------------------|----------------|
+| 🇦 Autonomous Economy | High | High | Optimize. System effectively minimizes O(ℰ) through local autonomy. Maintain boundaries |
+| 🇩 Dependent Complexity | Low | Low | Create autonomies. System suffers from global O(ℰ). Isolate local modules with own rules |
+| 🇷 Isolated Collapse | Very high | Excessive | Integrate. Autonomy became a trap. Weaken boundaries for resource and information exchange |
+
+**5. Examples of Practical Application**
+
+**Example 1: Biology - Autopoiesis and Life**
+- **Observation:** Cell maintains internal environment different from external through membrane and metabolic cycles
+- **PLAO Diagnosis:** Autonomous Economy. Life created autonomous ontology (cell) to minimize O(ℰ) for maintaining metabolism necessary for ℐ_min
+- **Action:** When designing artificial cells or ecosystems, create clear boundaries and local management rules
+
+**Example 2: Sociology - Social Institutions**
+- **Observation:** Societies create laws, currency, hierarchies different from natural state
+- **PLAO Diagnosis:** Autonomous Economy. Institution emergence are local L_local that reduce O(ℰ) in society, eliminating need for constant inefficient coordination
+- **Action:** When building organizations, delegate decision-making to levels where rules can be simplest and most effective
+
+**Example 3: Technology - Modular Programming**
+- **Observation:** Microservice architecture allows teams to develop and deploy components independently
+- **PLAO Diagnosis:** Autonomous Economy. Creating independent, loosely-coupled modules is PLAO application: each module reduces its O(ℰ) through autonomous management of its local rules
+- **Action:** When designing complex systems, divide them into autonomous modules with clear interfaces and minimal external dependency
+
+**6. Conclusion: Economy through Autonomy**
+
+The Principle of Local Ontological Autonomy is not just an observation of system organization. It's a bridge between fundamental law (MOL) and practice of creating sustainable, adaptive structures.
+
+It enables transition:
+
+> **From** global complexity → **to** local simplicity  
+> **From** centralized control → **to** distributed autonomy  
+> **From** fighting external perturbations → **to** creating protected internal environments
+
+MOL explained why systems strive for economy. PLAO provides the tool to achieve it through creating local autonomies with their own, simplified rules.
+
+In a world of growing complexity, the Principle of Local Ontological Autonomy is the key to creating systems capable of sustainable development.
+
+*The Principle of Local Ontological Autonomy (PLAO) is an open methodology. The authors invite collaboration with scientists and practitioners for method testing in various fields.*
+
+---
+
+### **Principle of Non-Visible Computational Framework (PNCF)**
+
+*Universal principle of forming minimally loaded observable ontology*
+
+*A scientific and practical memorandum based on the MOL meta-law*
+
+**Abstract**
+
+This paper presents the Principle of Non-Visible Computational Framework (PNCF) - a structural consequence of the Law of Minimum Ontological Load (MOL). PNCF postulates that complex systems actively export the most loaded but functionally necessary components beyond observable ontology into latent space to minimize total ontological load O(ℰ). This principle explains phenomena of dark matter in cosmology, latent variables in AI, and shadow economy, providing basis for designing systems with minimal observable complexity.
+
+**1. Introduction: The Problem of Observation Overload**
+
+Observable reality (baryonic matter, electromagnetism) demonstrates high degree of functional coherence (ℐ_min). However, if all information necessary for this coherence (∑ℐ) were represented inside observable ontology (ℰ_obs), its ontological load O(ℰ) would be critically high.
+
+PNCF postulates: The system actively exports the most loaded but functionally necessary components beyond observable ontology to minimize total system load O(ℰ).
+
+**2. Theoretical Foundation: Exporting O(ℰ) to Latent Space**
+
+MOL requires that the system's target state is:
+
+E* = argmin O(ℰ) subject to ℐ ≥ ℐ_min
+
+PNCF is the mechanism for achieving this goal at large scales:
+
+Components providing long-term structural connectivity (Framework 𝒦) have high O(ℰ) during direct interaction. To minimize O(ℰ), 𝒦 must be exported to latent space (become "invisible"), remaining topologically connected only for maintaining ℐ_min.
+
+**3. Core Method: Diagnostic Framework Parameters**
+
+PNCF action is diagnosed through two key parameters:
+
+1. **Necessary Deficiency Degree (D)**
+   - **What it measures:** Proportion of observable effects that cannot be explained by existing observable ontology ℰ_obs
+   - **How to interpret:** High D (e.g., excess gravity as in dark matter case) - direct evidence of 𝒦 existence
+
+2. **Energetic Passivity (P)**
+   - **What it measures:** Degree of Framework 𝒦 interaction with observable ℰ through non-gravitational/necessary forces
+   - **How to interpret:** High P (minimal interaction) - confirmation of min O(ℰ): Framework minimally loads ℰ_obs
+
+**4. PNCF Diagnostic Matrix**
+
+| System State | Deficiency Degree (D) | Energetic Passivity (P) | Recommendation |
+|--------------|----------------------|------------------------|----------------|
+| 🇰 Framework Economy | High | High | Optimize. System effectively minimizes O(ℰ) through latent framework. Maintain separation |
+| 🇩 Observable Overload | Low | Low | Create latent layers. System suffers from high O(ℰ). Export redundant components to invisible framework |
+| 🇷 Framework Decoherence | Unstable | Low | Stabilize connections. Framework losing effectiveness. Strengthen topological connections while maintaining latency |
+
+**5. Examples of Practical Application**
+
+**Example 1: Cosmology - Dark Matter and Dark Energy**
+- **Observation:** Galaxies demonstrate gravitational effects unexplained by observable baryonic matter
+- **PNCF Diagnosis:** Framework Economy. Framework 𝒦 provides gravitational ℐ_min without excessive electromagnetic load (O(ℰ))
+- **Action:** When modeling large-scale Universe structure, account for latent gravitational components as necessary framework
+
+**Example 2: Information Theory - Latent Variables in AI**
+- **Observation:** Neural networks use hidden layers for compressed data representation
+- **PNCF Diagnosis:** Framework Economy. Hidden layer 𝒦 dramatically reduces neural network O(ℰ) by finding economical data representation (ℐ_min)
+- **Action:** When designing AI architectures, create latent spaces for efficient information compression and processing
+
+**Example 3: Economics - Informal Economy**
+- **Observation:** Shadow economy provides transactions and trust outside formal institutions
+- **PNCF Diagnosis:** Framework Economy. Informal framework 𝒦 provides minimally necessary integrity (transactions, trust) while bypassing excessive regulatory load (O(ℰ))
+- **Action:** When analyzing economic systems, account for latent structures as functional components, not just anomalies
+
+**6. Conclusion: Economy through Invisibility**
+
+The Principle of Non-Visible Computational Framework is not just a description of hidden structures. It's an explanation of why they exist and why they're necessary for maintaining complexity with minimal load.
+
+It enables transition:
+
+> **From** attempts to include all complexity in observable ontology → **to** strategic export of components to latent space  
+> **From** fighting observable redundancy → **to** management through invisible but effective frameworks  
+> **From** analyzing only visible structures → **to** understanding system as unity of observable and latent
+
+MOL explained why systems strive for economy. PNCF provides the tool to achieve it through creating invisible but fundamentally important frameworks.
+
+In a world of growing complexity, the Principle of Non-Visible Computational Framework is the key to understanding how systems remain integral while staying simple in observation.
+
+*The Principle of Non-Visible Computational Framework (PNCF) is an open methodology. The authors invite collaboration with scientists and practitioners for method testing in various fields.*
+
+
