@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фонд MOL | Закон Минимальной Онтологической Нагрузки</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --text-main: #2c3e50;
+            --accent: #3498db;
+            --bg-light: #f9fafb;
+            --border: #e0e6ed;
+            --bg-statement: #f0f7ff;
+            --text-secondary: #7f8c8d;
+        }
+        
+        body {
+            font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: #ffffff;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            color: var(--text-main);
+            font-weight: 700;
+            text-align: center;
+        }
+        
+        .intro-tagline {
+            font-size: 1.2em;
+            color: var(--accent);
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+        
+        h2 {
+            font-size: 1.6em;
+            margin: 40px 0 15px;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 5px;
+            font-weight: 700;
+        }
+        
+        p, ul {
+            margin: 15px 0;
+        }
+        
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .law-statement {
+            background: var(--bg-statement);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+            border: 1px solid #cceeff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            font-size: 1.3em;
+        }
+        
+        .principle-grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .principle-card {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+        }
+
+        .principle-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent);
+        }
+        
+        .principle-card strong {
+            display: block;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+        
+        .principle-card .principle-list {
+            font-size: 0.9em;
+            color: var(--text-main);
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .principle-card em {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        
+        ul {
+            padding-left: 20px;
+            list-style-type: '— ';
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .documents-list {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        
+        .document-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 3px solid var(--accent);
+            background: white;
+        }
+        
+        .document-item strong {
+            color: var(--text-main);
+        }
+
+        .tools-list {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin: 15px 0;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eaecef;
+            margin: 40px 0;
+        }
+        
+        footer {
+            font-size: 0.9em;
+            color: var(--text-secondary);
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .completion-badge {
+            background: #27ae60;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+
+        .new-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.7em;
+            margin-left: 8px;
+            font-weight: bold;
+        }
+
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .language-switcher a {
+            margin: 0 10px;
+            padding: 5px 15px;
+            border: 1px solid var(--accent);
+            border-radius: 20px;
+            color: var(--accent);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .language-switcher a:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .language-switcher a.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .doc-versions {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .principle-grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="language-switcher">
+        <a href="index.html">English</a>
+        <a href="index_ru.html" class="active">Русский</a>
+    </div>
+
+    <h1>Закон Минимальной Онтологической Нагрузки (MOL)</h1>
+    <p class="intro-tagline">Универсальный Мета-Принцип Направленной Самоорганизации Сложных Систем</p>
+
+    <div class="law-statement">
+        $$E^* = \arg\min O(\mathcal{E}) \quad \text{при условиях:} \quad \mathcal{I} \geq \mathcal{I}_{\min}, \quad C \geq C_{\min}$$
+    </div>
+
+    <p>
+        MOL утверждает: любая устойчивая система стремится к состоянию, в котором её <strong>онтологическая нагрузка</strong> (\(O(\mathcal{E})\)) — мера нефункциональной избыточности в её структуре — <strong>минимизирована</strong> при сохранении достаточной <strong>информационной целостности</strong> (\(\mathcal{I}\)). Это принцип отбора: <strong>реальность предпочитает самый экономный способ бытия.</strong>
+    </p>
+
+    <h2>📚 Официальные Публикации</h2>
+    <div class="documents-list">
+        <div class="document-item">
+            <a href="https://doi.org/10.5281/zenodo.17422128"><strong>MOL Whitepaper v1.0 (DOI)</strong></a><br>
+            Полная формализация, математический аппарат и дорожная карта. <em>(Главный документ)</em>
+        </div>
+        
+        <div class="document-item">
+            <a href="https://doi.org/10.5281/zenodo.17438159"><strong>Философские Основы MOL (DOI)</strong></a><br>
+            Концептуальная основа, мета-принцип и роль Оператора \(\Phi\).
+        </div>
+        
+        <div class="document-item">
+            <a href="https://doi.org/10.5281/zenodo.17438280"><strong>Математика и Эмпирика MOL (DOI)</strong></a><br>
+            Метрики, формулы-прокси, количественные доказательства.
+        </div>
+
+        <div class="document-item">
+            <a href="https://doi.org/10.5281/zenodo.17439702"><strong>Principles Guide & Meta-Principles Table (DOI)</strong> <span class="new-badge">НОВЫЙ</span></a><br>
+            Полная система 11 принципов, диагностические матрицы, практическое применение.
+        </div>
+
+        <div class="document-item">
+            <a href="docs/MOL_Whitepaper_v1.md"><strong>Локальные версии документов</strong></a><br>
+            Whitepaper, философское введение и научное ядро в формате Markdown.
+        </div>
+    </div>
+
+    <h2>🧩 Периодическая Таблица Мета-Принципов <span class="completion-badge">Завершена</span></h2>
+    <p>MOL проявляется через 11 универсальных принципов, сгруппированных по фундаментальным аспектам реальности:</p>
+
+    <div class="principle-grid-container">
+        <div class="principle-card">
+            <strong>🔄 ДИНАМИКА (Оператор \(\Phi\))</strong>
+            <div class="principle-list">ПФД, ПКВ, ПДА</div>
+            <em>Управление переходами и фазовыми скачками систем, разрешающими онтологические противоречия.</em>
+        </div>
+        <div class="principle-card">
+            <strong>🏛️ СТРУКТУРА (Пространство)</strong>
+            <div class="principle-list">ПФЭ, ПЛАО, ПНВК</div>
+            <em>Организация иерархических структур, масштабная инвариантность минимизации \(O(\mathcal{E})\).</em>
+        </div>
+        <div class="principle-card">
+            <strong>💡 ИНФОРМАЦИЯ (Сущность)</strong>
+            <div class="principle-list">ПДК, ПСР, ПИПК</div>
+            <em>Цикл обработки, сжатия, стабилизации и резонанса информации.</em>
+        </div>
+        <div class="principle-card">
+            <strong>⏳ ВРЕМЯ / СИММЕТРИЯ</strong>
+            <div class="principle-list">ПАА, ПИД</div>
+            <em>Первичный акт нарушения симметрии и направленность темпоральной эволюции.</em>
+        </div>
+    </div>
+
+    <div class="doc-versions">
+        <p><strong>Доступны две версии документации:</strong></p>
+        <p>
+            <a href="metaprinciples/MOL_Principles_Guide.md">📖 Краткий справочник</a> - Сжатый обзор всех 11 принципов<br>
+            <a href="metaprinciples/full_principles_guide.md">📚 Полное руководство</a> - Детальные описания с диагностическими матрицами и практическими примерами
+        </p>
+    </div>
+
+    <h2>🔬 Эмпирические Доказательства</h2>
+    <ul>
+        <li><strong>Биология (T4-лизоцим):</strong> Термодинамическая устойчивость <strong>сильно коррелирует</strong> с минимизированным \(O(\mathcal{E})\) (\(r \approx -0.76\)).</li>
+        <li><strong>Физика (Фигуры Хладни):</strong> Сложный устойчивый порядок возникает в <strong>локальных минимумах</strong> \(O(\mathcal{E})\).</li>
+        <li><strong>Социодинамика:</strong> Распределённые, адаптивные институты демонстрируют низкую <strong>скрытую структурную инконсистентность (DSI)</strong>.</li>
+        <li><strong>Когнитивные Системы:</strong> Эффект плацебо как пример снижения \(O(\mathcal{E})\) через <strong>смену онтологической плоскости</strong> восприятия.</li>
+    </ul>
+
+    <h2>🚀 Количественные Прогнозы</h2>
+    <ul>
+        <li><a href="research/historical_analysis.md"><strong>Исторический анализ</strong></a> - Предсказание коллапса государств с точностью 75%</li>
+        <li><a href="research/thermal_coherence_prediction.md"><strong>Материаловедение</strong></a> - 5-кратное улучшение теплопроводности в наноструктурах</li>
+        <li><a href="research/social_media_analysis.md"><strong>Социальные платформы</strong></a> - Моделирование жизненных циклов согласно MOL-переходам</li>
+    </ul>
+
+    <h2>🛠 Инструменты и Реализация</h2>
+    <div class="tools-list">
+        <p><strong>Доступные инструменты:</strong></p>
+        <ul>
+            <li><a href="tools/mol_demo.py">mol_demo.py</a> - Демонстрация принципов MOL</li>
+            <li><a href="tools/mol_real_analyzer.py">mol_real_analyzer.py</a> - Анализатор реальных систем</li>
+            <li><a href="tools/DATA_INSTRUCTIONS.md">Инструкции по данным</a> - Руководство по использованию</li>
+        </ul>
+    </div>
+
+    <h2>🎯 Практическая значимость</h2>
+    <p><strong>Для исследователей:</strong></p>
+    <ul>
+        <li>Критерий предсказательной силы для моделей сложных систем</li>
+        <li>Универсальная метрика устойчивости O(ℰ) для систем любого масштаба</li>
+        <li>Механизм разрешения противоречий через оператор Φ</li>
+    </ul>
+    
+    <p><strong>Для прикладных задач:</strong></p>
+    <ul>
+        <li>Оптимизация архитектур (нейросети, программные системы)</li>
+        <li>Проектирование устойчивых институтов и социальных структур</li>
+        <li>Предсказание точек бифуркации в сложных системах</li>
+    </ul>
+
+    <h2>🌐 Исследования и Ресурсы</h2>
+    <ul>
+        <li><a href="research/">Репозиторий Исследований</a> - Кейс-стади, прогнозы и протоколы верификации</li>
+        <li><a href="https://github.com/Singular-MOL/mol-foundation">GitHub Репозиторий</a> - Исходный код и документация</li>
+        <li><a href="PERPLEXITY_RESPONSE.md">Стратегия интеграции</a> - План внедрения MOL в AI системы</li>
+        <li>Перспектива: Разработка симулятора фазовой диагностики для оценки \(O(\mathcal{E})\) в реальном времени</li>
+    </ul>
+
+    <hr>
+    <footer>
+        Фонд MOL: Независимая исследовательская группа. Мы открыты для междисциплинарного сотрудничества.
+        <br>
+        Контакты: <a href="mailto:rudiiik@yandex.ru">rudiiik@yandex.ru</a> | 
+        <a href="https://github.com/Singular-MOL/mol-foundation">GitHub</a>
+    </footer>
+
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+
+</body>
+</html>
