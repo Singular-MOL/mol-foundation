@@ -28,15 +28,9 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 
 ### Two Documentation Versions Available:
 
-**📖 Quick Reference** - [`MOL_Principles_Guide.md`](./metaprinciples/MOL_Principles_Guide.md)
-- Concise overview of all 11 principles
-- Perfect for quick reference and implementation
+[📖 **Quick Reference**](metaprinciples/MOL_Principles_Guide.md) - Concise overview of all 11 principles
 
-**📚 Complete Guide** - [`full_principles_guide.md`](./metaprinciples/full_principles_guide.md) 
-- **NEW**: Full detailed descriptions of all principles
-- Scientific memorandums with diagnostic matrices
-- Practical application examples
-- Theoretical foundations and connection to MOL
+[📚 **Complete Guide**](metaprinciples/full_principles_guide.md) - **NEW**: Full detailed descriptions with diagnostic matrices and practical examples
 
 ## 🔬 Empirical Evidence and Predictions
 
@@ -59,25 +53,25 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 - Transition to a plane where symptoms are no longer interpreted as pathology
 
 ### 🚀 Quantitative Predictions
-- **📊 Historical Analysis**: Prediction of state collapse with 75% accuracy - [`/research/historical_analysis.md`](./research/historical_analysis.md)
-- **🔬 Materials Science**: 5x improvement in thermal conductivity in nanostructures - [`/research/thermal_coherence_prediction.md`](./research/thermal_coherence_prediction.md)  
-- **🌐 Social Platforms**: Lifecycle modeling according to MOL transitions - [`/research/social_media_analysis.md`](./research/social_media_analysis.md)
+- **📊 Historical Analysis**: Prediction of state collapse with 75% accuracy - [research/historical_analysis.md](research/historical_analysis.md)
+- **🔬 Materials Science**: 5x improvement in thermal conductivity in nanostructures - [research/thermal_coherence_prediction.md](research/thermal_coherence_prediction.md)  
+- **🌐 Social Platforms**: Lifecycle modeling according to MOL transitions - [research/social_media_analysis.md](research/social_media_analysis.md)
 
 ## 📚 Official Publications
 
 | Document | Type | DOI |
 |----------|------|-----|
-| MOL Whitepaper v1.0 | Working paper | 10.5281/zenodo.17422128 |
-| Philosophical Foundations | Publication | 10.5281/zenodo.17438159 |
-| Mathematical Formalization | Publication | 10.5281/zenodo.17438280 |
-| Principles Guide & Meta-Principles Table | Publication | 10.5281/zenodo.17439702 |
+| MOL Whitepaper v1.0 | Working paper | [10.5281/zenodo.17422128](https://doi.org/10.5281/zenodo.17422128) |
+| Philosophical Foundations | Publication | [10.5281/zenodo.17438159](https://doi.org/10.5281/zenodo.17438159) |
+| Mathematical Formalization | Publication | [10.5281/zenodo.17438280](https://doi.org/10.5281/zenodo.17438280) |
+| Principles Guide & Meta-Principles Table | Publication | [10.5281/zenodo.17439702](https://doi.org/10.5281/zenodo.17439702) |
 
 ### Local versions in repository:
-- **📄 Whitepaper** - [`/docs/MOL_Whitepaper_v1.md`](./docs/MOL_Whitepaper_v1.md)
-- **🎯 Philosophical Introduction** - [`/docs/MOL_Philosophical_Introduction.md`](./docs/MOL_Philosophical_Introduction.md)
-- **🔬 Scientific Core** - [`/docs/MOL_Scientific_Core.md`](./docs/MOL_Scientific_Core.md)
-- **🧩 Principles Guide** - [`/metaprinciples/`](./metaprinciples/)
-- **🛠 Tools and Implementation** - [`/tools/`](./tools/)
+- **📄 Whitepaper** - [docs/MOL_Whitepaper_v1.md](docs/MOL_Whitepaper_v1.md)
+- **🎯 Philosophical Introduction** - [docs/MOL_Philosophical_Introduction.md](docs/MOL_Philosophical_Introduction.md)
+- **🔬 Scientific Core** - [docs/MOL_Scientific_Core.md](docs/MOL_Scientific_Core.md)
+- **🧩 Principles Guide** - [metaprinciples/](metaprinciples/)
+- **🛠 Tools and Implementation** - [tools/](tools/)
 
 ## 🛠 Tools and Implementation
 
@@ -85,7 +79,7 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 # MOL analysis tools
 python tools/mol_demo.py          # MOL principles demonstration
 python tools/mol_real_analyzer.py # Real systems analyzer
-See /tools/DATA_INSTRUCTIONS.md for detailed instructions and data requirements.
+See tools/DATA_INSTRUCTIONS.md for detailed instructions and data requirements.
 
 🎯 Practical Significance
 
