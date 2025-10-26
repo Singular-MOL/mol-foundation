@@ -36,7 +36,6 @@ P80A +1.8 2 -0.2 ✅ ❌ Proline kink disruption
 L133I -0.1 0 -1.2 ✅ ❌ Conservative core substitution
 S117A +0.4 1 +0.01 ✅ ✅ Polar to Ala surface change
 V111A +1.1 1 -1.7 ✅ ❌ Core proximity packing
-
 ---
 
 📈 Statistical Analysis
