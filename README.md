@@ -1,6 +1,6 @@
 ---
 title: The MOL Foundation — Universal Law of Minimal Ontological Load
-description: Open research project exploring a universal principle of self-organization across complex systems (physics, biology, cognition, society). DOI: 10.5281/zenodo.17445023
+description: Open research project exploring a universal principle of self-organization across complex systems (physics, biology, cognition, society). (DOI: 10.5281/zenodo.17445023)
 tags: complex-systems, ontology, information-theory, emergence, self-organization, mol-law
 license: CC-BY-4.0
 ---
