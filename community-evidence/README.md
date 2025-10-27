@@ -2,44 +2,48 @@
 
 Welcome to the collaborative validation hub for the **Law of Minimal Ontological Load**!
 
-## 🗂️ Browse by Domain / Области исследований
-- **[Биология (Biology)](submissions/biology/)** - белки, организмы, экосистемы | proteins, organisms, ecosystems
-- **[Физика (Physics)](submissions/physics/)** - материалы, волны, наносистемы | materials, waves, nanosystems
-- **[Социальные системы (Social Systems)](submissions/social/)** - институты, сети, экономика | institutions, networks, economics
-- **[Когнитивные науки (Cognitive Science)](submissions/cognitive/)** - сознание, AI, психология | consciousness, AI, psychology
-- **[Другие области (Other Domains)](submissions/other/)**
+## 🗂️ Browse by Domain
+- **[Biology (Биология)](submissions/biology/)** - proteins, organisms, ecosystems | белки, организмы, экосистемы
+- **[Physics (Физика)](submissions/physics/)** - materials, waves, nanosystems | материалы, волны, наносистемы
+- **[Social Systems (Социальные системы)](submissions/social/)** - institutions, networks, economics | институты, сети, экономика
+- **[Cognitive Science (Когнитивные науки)](submissions/cognitive/)** - consciousness, AI, psychology | сознание, AI, психология
+- **[Other Domains (Другие области)](submissions/other/)**
 
-## 🚀 How to Contribute / Как участвовать
-1. **Choose your domain above** / Выберите вашу область выше
-2. **Use [template](templates/UNIVERSAL_TEMPLATE.md)** / Используйте [шаблон](templates/UNIVERSAL_TEMPLATE.md)
-3. **Fork + Add your work** to corresponding folder / Форк + Добавьте работу в нужную папку
-4. **Submit Pull Request** / Сделайте Pull Request
+## 🚀 How to Contribute
+1. **Choose your domain above**
+2. **Use [template](templates/UNIVERSAL_TEMPLATE.md)**
+3. **Fork + Add your work** to corresponding folder
+4. **Submit Pull Request**
 
-## 📋 Templates & Examples / Шаблоны и примеры
-- **[Универсальный шаблон (Universal Template)](templates/UNIVERSAL_TEMPLATE.md)** - для всех областей
-- **[Пример заполнения (Example)](templates/EXAMPLE.md)** - как оформить работу
+*По-русски: Выберите область → Используйте шаблон → Форк + Добавьте работу → Сделайте PR*
 
-## 🏆 Verified Research / Проверенные работы
-Проверенные работы перемещаются в **[verified/](verified/)** 
+## 📋 Templates & Examples
+- **[Universal Template (Универсальный шаблон)](templates/UNIVERSAL_TEMPLATE.md)** - for all domains
+- **[Example (Пример)](templates/EXAMPLE.md)** - how to format your work
 
-## 📁 Project Structure / Структура проекта
+## 🏆 Verified Research
+Verified works are moved to **[verified/](verified/)**
+
+*Проверенные работы перемещаются в verified/*
+
+## 📁 Project Structure
 
 ```
 
 /community-evidence/
-├──submissions/          # Новые работы / New submissions
-│├── biology/         # Биологические системы
-│├── physics/         # Физика и материалы
-│   ├── social/          # Социальные системы
-│├── cognitive/       # Когнитивные науки
-│└── other/           # Другие области
-├──verified/            # Проверенные работы / Verified research
+├──submissions/          # New submissions / Новые работы
+│├── biology/         # Biological systems
+│├── physics/         # Physics & materials
+│   ├── social/          # Social systems
+│├── cognitive/       # Cognitive science
+│└── other/           # Other domains
+├──verified/            # Verified research / Проверенные работы
 │├── biology/
 │├── physics/
 │├── social/
 │├── cognitive/
 │└── other/
-└──templates/           # Шаблоны / Templates
+└──templates/           # Templates / Шаблоны
 ├── UNIVERSAL_TEMPLATE.md
 └── EXAMPLE.md
 
@@ -47,4 +51,5 @@ Welcome to the collaborative validation hub for the **Law of Minimal Ontological
 
 ---
 
-**Questions? / Вопросы?** Contact: rudiiik@yandex.ru
+**Questions?** Contact: rudiiik@yandex.ru
+
