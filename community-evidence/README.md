@@ -27,3 +27,10 @@ _Be the first to contribute! Your work could shape a new scientific paradigm._
 ---
 
 **Questions?** Contact: rudiiik@yandex.ru
+
+```
+/community-evidence/
+├── README.md          # Инструкции как контрибьютить
+├── /submissions/      # Сюда они будут делать PR
+├── /templates/        # Шаблоны для отчетов
+└── /verified/         # Проверенные работы (после ревью)
