@@ -28,6 +28,20 @@ _Be the first to contribute! Your work could shape a new scientific paradigm._
 
 **Questions?** Contact: rudiiik@yandex.ru
 
+## 🧪 Community Validation
+
+**Help verify MOL across different domains!** 
+
+We're building collective evidence for the Law of Minimal Ontological Load. 
+
+**Contribute your research:**
+1. Use templates in `/community-evidence/templates/`
+2. Add your work to `/community-evidence/submissions/`  
+3. Submit Pull Request
+
+**No contribution too small!** Even negative results help science.
+
+
 ```
 /community-evidence/
 ├── README.md          # Инструкции как контрибьютить
