@@ -147,7 +147,7 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 - **[Other Domains](community-evidence/submissions/other/)**
 
 ### 📋 Templates & Examples:
-- **[Universal Template](community-evidence/templates/UNIVERSAL_TEMPLATE.md)** - for all domains
+- **[Universal Template](community-evidence/templates/community-evidence/templates/CONTRIBUTION_TEMPLATE.md)** - for all domains
 - **[Example](community-evidence/templates/EXAMPLE.md)** - see how to format your work
 
 **Your work could shape a new scientific paradigm!**
