@@ -121,6 +121,35 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 3. **Formulate task** - Use precise MOL terminology, not generic "analyze my data"
 4. **Validate results** - Check for ontological plane shifts and principle compliance
 
+## 🧪 Community Validation
+
+**MOL needs empirical verification across domains!** We invite researchers to test and contribute:
+
+### 📥 How to contribute:
+1. **Fork this repository**
+2. **Add your evidence** to corresponding folder in `/community-evidence/submissions/`
+3. **Submit Pull Request** 
+4. **Get reviewed & merged**
+
+### 🎯 What to contribute:
+- Experimental validations
+- New domain applications  
+- Code implementations
+- Critical analyses
+
+### 🌐 Browse by Domain:
+- **[Biology](community-evidence/submissions/biology/)** - proteins, organisms, ecosystems
+- **[Physics](community-evidence/submissions/physics/)** - materials, waves, nanosystems
+- **[Social Systems](community-evidence/submissions/social/)** - institutions, networks, economics
+- **[Cognitive Science](community-evidence/submissions/cognitive/)** - consciousness, AI, psychology
+- **[Other Domains](community-evidence/submissions/other/)**
+
+### 📋 Templates & Examples:
+- **[Universal Template](community-evidence/templates/UNIVERSAL_TEMPLATE.md)** - for all domains
+- **[Example](community-evidence/templates/EXAMPLE.md)** - see how to format your work
+
+**Your work could shape a new scientific paradigm!**
+
 ## 🎯 Practical Significance
 
 **For Researchers:**
