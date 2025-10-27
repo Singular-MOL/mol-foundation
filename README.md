@@ -50,11 +50,11 @@ MOL is implemented through the ontological plane shift operator (Φ) and a syste
 
 ### ✅ Verified Applications
 
-🧬 **Biology: T4-lysozyme**  
+🧬 **[Biology: T4-lysozyme]**
 Strong negative correlation (r ≈ -0.76) between thermodynamic stability and O(ℰ)  
 Proteins evolve toward minimization of excess complexity while preserving function
 
-🚆 **Transport Networks: Berlin System**  
+🚆 **[Transport Networks: Berlin System]**
 Optimal stops converge to O(ℰ) ≈ 0.300, problematic to O(ℰ) ≥ 0.700  
 34% of network exhibits high ontological load, only 1.9% achieves optimum
 
@@ -62,7 +62,7 @@ Optimal stops converge to O(ℰ) ≈ 0.300, problematic to O(ℰ) ≥ 0.700
 Complex stable patterns emerge only at O(ℰ) ≈ 0.40–0.45 (local minimum)  
 Demonstration of transition to a new ontological plane
 
-🏛️ **Sociodynamics**  
+🏛️ **[Sociodynamics]**
 Distributed institutions demonstrate lower ontological coordination load  
 Historical analysis shows correlation between O(ℰ) and social system stability
 
@@ -72,20 +72,11 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 
 ### 📊 Quantitative Predictions
 
-📈 **Historical Analysis** - Prediction of state collapse with 75% accuracy  
+📈 **[Historical Analysis](./research/historical_analysis.md)** - Prediction of state collapse with 75% accuracy  
 🔬 **Materials Science** - 5x improvement in thermal conductivity in nanostructures  
-🧬 **Protein Stability** - 85.7% prediction accuracy vs 21.4% for DeepDDG neural network  
-🌐 **Social Platforms** - Lifecycle mode identification with 89% precision  
-🚆 **Transport Networks** - Identification of 1,702 problematic nodes requiring optimization
-
----
-
-**📂 Complete empirical studies available in `/research` directory:**
-- Protein stability validation (28 mutations)
-- Transport network analysis (19,758 stops) 
-- Historical systems collapse prediction
-- Social media platform lifecycle analysis
-- Thermal coherence in nanostructures
+🧬 **[Protein Stability](./research/protein_stability_validation.md)** - 85.7% prediction accuracy vs 21.4% for DeepDDG neural network  
+🌐 **[Social Platforms](./research/social_media_analysis.md)** - Lifecycle mode identification with 89% precision  
+🚆 **[Transport Networks](./research/transport_network_mol.md)** - Identification of 1,702 problematic nodes requiring optimization
 
 ## 📚 Official Publications
 
