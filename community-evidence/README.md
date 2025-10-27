@@ -2,28 +2,49 @@
 
 Welcome to the collaborative validation hub for the **Law of Minimal Ontological Load**!
 
-## 📁 Quick Start
-1. **Choose template** below matching your domain
-2. **Fork this repository** 
-3. **Add your evidence** to `/submissions/`
-4. **Submit Pull Request**
+## 🗂️ Browse by Domain / Области исследований
+- **[Биология (Biology)](submissions/biology/)** - белки, организмы, экосистемы | proteins, organisms, ecosystems
+- **[Физика (Physics)](submissions/physics/)** - материалы, волны, наносистемы | materials, waves, nanosystems
+- **[Социальные системы (Social Systems)](submissions/social/)** - институты, сети, экономика | institutions, networks, economics
+- **[Когнитивные науки (Cognitive Science)](submissions/cognitive/)** - сознание, AI, психология | consciousness, AI, psychology
+- **[Другие области (Other Domains)](submissions/other/)**
 
-## 🔬 Domain-Specific Templates
-- **[Biology & Proteins](templates/biology_validation.md)** - protein stability, molecular systems
-- **[Physics & Materials](templates/physics_validation.md)** - Chladni figures, nanomaterials  
-- **[Social Systems](templates/social_validation.md)** - institutions, networks, economics
-- **[Cognitive Science](templates/cognitive_validation.md)** - consciousness, AI systems
-- **[General Template](templates/general_validation.md)** - other domains
+## 🚀 How to Contribute / Как участвовать
+1. **Choose your domain above** / Выберите вашу область выше
+2. **Use [template](templates/UNIVERSAL_TEMPLATE.md)** / Используйте [шаблон](templates/UNIVERSAL_TEMPLATE.md)
+3. **Fork + Add your work** to corresponding folder / Форк + Добавьте работу в нужную папку
+4. **Submit Pull Request** / Сделайте Pull Request
 
-## 📊 Evidence Categories
-- ✅ **Experimental Validation** - lab results, empirical data
-- 💻 **Code Implementation** - O(ℰ) calculators, analyzers
-- 📈 **Case Studies** - real-world applications
-- 🤔 **Critical Analysis** - refutations, limitations
+## 📋 Templates & Examples / Шаблоны и примеры
+- **[Универсальный шаблон (Universal Template)](templates/UNIVERSAL_TEMPLATE.md)** - для всех областей
+- **[Пример заполнения (Example)](templates/EXAMPLE.md)** - как оформить работу
 
-## 🏆 Recent Contributions
-*Be the first contributor! Your work will be featured here.*
+## 🏆 Verified Research / Проверенные работы
+Проверенные работы перемещаются в **[verified/](verified/)** 
+
+## 📁 Project Structure / Структура проекта
+
+```
+
+/community-evidence/
+├──submissions/          # Новые работы / New submissions
+│├── biology/         # Биологические системы
+│├── physics/         # Физика и материалы
+│   ├── social/          # Социальные системы
+│├── cognitive/       # Когнитивные науки
+│└── other/           # Другие области
+├──verified/            # Проверенные работы / Verified research
+│├── biology/
+│├── physics/
+│├── social/
+│├── cognitive/
+│└── other/
+└──templates/           # Шаблоны / Templates
+├── UNIVERSAL_TEMPLATE.md
+└── EXAMPLE.md
+
+```
 
 ---
 
-**Questions?** Contact: rudiiik@yandex.ru
+**Questions? / Вопросы?** Contact: rudiiik@yandex.ru
