@@ -1,23 +1,35 @@
 # MOL Validation Report
 
-## Основная информация
-- **Исследователь:** [Ваше имя/аффилиация]
-- **Контакты:** [email/twitter]
-- **Дата:** [ГГГГ-ММ-ДД]
-- **Домен:** [Физика/Биология/Социология/Другое]
+## Researcher: [Your Name/Affiliation]
+## Contact: [Email/Twitter]
+## Date: [YYYY-MM-DD]
+## Domain: [Physics/Biology/Social Systems/etc.]
 
-## Методология
-- **Система:** [Что анализировали]
-- **Расчет O(ℰ):** [Как измеряли онтологическую нагрузку]
-- **Метрика стабильности:** [Как измеряли устойчивость]
-- **Инструменты:** [Код, данные, софт]
+### Research Question
+[What specific aspect of MOL theory are you testing?]
 
-## Результаты
-[Данные, графики, выводы]
+### Methodology  
+- **System Analyzed:** [Describe the system]
+- **O(ℰ) Calculation:** [How you measured ontological load]
+- **Stability Metric:** [How you measured stability/functionality]
+- **Tools Used:** [Software, code, datasets]
 
-## Файлы
-- [ ] Данные (.csv, .json)
-- [ ] Код анализа (.py, .ipynb)
-- [ ] Визуализации (.png, .pdf)
+### Results
+**Data Summary:**
+- Sample Size: [Number of observations]
+- O(ℰ) Range: [Min-Max values]
+- Correlation with Stability: [r-value, p-value]
 
-*См. пример: EXAMPLE.md*
+**Key Findings:**
+[Bullet points of main results]
+
+### Files Attached
+- [ ] Data file (.csv, .json)
+- [ ] Analysis code (.py, .ipynb) 
+- [ ] Visualizations (.png, .pdf)
+
+### Conclusion
+[How results support/refute/refine MOL theory]
+
+### Next Steps
+[Suggested further research]
