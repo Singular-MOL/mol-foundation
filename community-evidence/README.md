@@ -2,49 +2,28 @@
 
 Welcome to the collaborative validation hub for the **Law of Minimal Ontological Load**!
 
-## How to Contribute
+## 📁 Quick Start
+1. **Choose template** below matching your domain
+2. **Fork this repository** 
+3. **Add your evidence** to `/submissions/`
+4. **Submit Pull Request**
 
-### For Researchers:
-1. **Fork this repository**
-2. **Add your evidence** following our templates
-3. **Submit Pull Request** 
-4. **Get credited** as contributor
+## 🔬 Domain-Specific Templates
+- **[Biology & Proteins](templates/biology_validation.md)** - protein stability, molecular systems
+- **[Physics & Materials](templates/physics_validation.md)** - Chladni figures, nanomaterials  
+- **[Social Systems](templates/social_validation.md)** - institutions, networks, economics
+- **[Cognitive Science](templates/cognitive_validation.md)** - consciousness, AI systems
+- **[General Template](templates/general_validation.md)** - other domains
 
-### Evidence Categories:
-- 🔬 **Experimental Validation** - lab results, empirical data
+## 📊 Evidence Categories
+- ✅ **Experimental Validation** - lab results, empirical data
 - 💻 **Code Implementation** - O(ℰ) calculators, analyzers
-- 📊 **Case Studies** - real-world applications
+- 📈 **Case Studies** - real-world applications
 - 🤔 **Critical Analysis** - refutations, limitations
 
-## Templates
-- [Biology Validation Template](../templates/biology_validation.md)
-- [Physics Test Template](../templates/physics_test.md)
-- [Social Systems Template](../templates/social_systems.md)
-
-## Recent Contributions
-_Be the first to contribute! Your work could shape a new scientific paradigm._
+## 🏆 Recent Contributions
+*Be the first contributor! Your work will be featured here.*
 
 ---
 
 **Questions?** Contact: rudiiik@yandex.ru
-
-## 🧪 Community Validation
-
-**Help verify MOL across different domains!** 
-
-We're building collective evidence for the Law of Minimal Ontological Load. 
-
-**Contribute your research:**
-1. Use templates in `/community-evidence/templates/`
-2. Add your work to `/community-evidence/submissions/`  
-3. Submit Pull Request
-
-**No contribution too small!** Even negative results help science.
-
-
-```
-/community-evidence/
-├── README.md          # Инструкции как контрибьютить
-├── /submissions/      # Сюда они будут делать PR
-├── /templates/        # Шаблоны для отчетов
-└── /verified/         # Проверенные работы (после ревью)
