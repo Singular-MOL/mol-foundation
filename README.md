@@ -99,6 +99,28 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 - [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Real systems analyzer
 - [Data Instructions](tools/DATA_INSTRUCTIONS.md)
 
+## 🚀 Quick Start: How to Use MOL
+
+### For Researchers & Practitioners
+
+**New:** We've created practical guides to help you apply MOL theory effectively with modern AI tools:
+
+- **[HOW-TO-USE-MOL.md](HOW-TO-USE-MOL.md)** - Step-by-step instructions for using MOL with language models
+- **[HOW-TO-USE-MOL_RU.md](HOW-TO-USE-MOL_RU.md)** - Russian version
+
+**These guides solve the common problem:** getting "pseudo-MOL" analysis instead of genuine ontological insights. They provide:
+
+- ✅ **4-step process** for proper MOL analysis
+- ✅ **Ready-to-use prompts** for language models  
+- ✅ **Validation criteria** to distinguish real MOL from spatial analysis
+- ✅ **Real-world examples** of correct vs incorrect approaches
+
+### Basic Workflow:
+1. **Load context** - Provide the 4 core MOL documents to your AI assistant
+2. **Verify understanding** - Ensure it grasps operator Φ and O(ℰ) minimization
+3. **Formulate task** - Use precise MOL terminology, not generic "analyze my data"
+4. **Validate results** - Check for ontological plane shifts and principle compliance
+
 ## 🎯 Practical Significance
 
 **For Researchers:**
