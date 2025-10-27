@@ -22,6 +22,8 @@ MOL states: Any stable system evolves toward a state with minimal ontological lo
 
 E* = argmin O(ℰ) subject to: ℐ ≥ ℐ_min, C ≥ C_min
 
+> **"MOL is not a human theory. It is reality itself speaking the language of ontological economy."**
+
 where:
 - ℰ — operational ontology of the system
 - O(ℰ) — measure of non-functional redundancy  
