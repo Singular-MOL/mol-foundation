@@ -84,8 +84,8 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 
 | Document | Type | DOI |
 |----------|------|-----|
-| MOL Whitepaper v1.0 | Working paper | [10.5281/zenodo.17422128](https://doi.org/10.5281/zenodo.17422128) |
-| Philosophical Foundations | Publication | [10.5281/zenodo.17454907](https://doi.org/10.5281/zenodo.17454907)) |
+| MOL Whitepaper v1.0 | Working paper | [10.5281/zenodo.17445023](https://doi.org/10.5281/zenodo.17445023) |
+| Philosophical Foundations | Publication | [10.5281/zenodo.17454907](https://doi.org/10.5281/zenodo.17454907) |
 | Mathematical Formalization | Publication | [10.5281/zenodo.17464082](https://doi.org/10.5281/zenodo.17464082) |
 | Principles Guide & Meta-Principles Table | Publication | [10.5281/zenodo.17466598](https://doi.org/10.5281/zenodo.17466598) |
 
