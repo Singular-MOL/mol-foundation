@@ -30,7 +30,6 @@ where:
 - ℐ — informational/functional integrity
 - C — topological connectivity
 
-> "Reality prefers the most economical way of being."
 
 ## 🧩 Periodic Table of Meta-Principles
 MOL is implemented through the ontological plane shift operator (Φ) and a system of 11 universal principles:
