@@ -19,13 +19,10 @@ doi: "10.5281/zenodo.17445023"
 ![MOL Film Prediction Diagram](https://example.com/mol-film-diagram.png)
 
 ## 🧩 Core Architectural Principle
-
-```
-
 ```
 math
 \boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{s.t.} \quad I(E) \geq I_{\min}}
-
+```
 where:
 
     E = Film ontology (PIVC/PLOA/PAA/PDC configuration)
