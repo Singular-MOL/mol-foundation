@@ -28,13 +28,17 @@ where:
     E = Operational ontology space
     O(E) = Ontological load measure
     I(E) = Functional integrity constraints
+---
 
 🧮 Implementation Framework
 Production Models Ecosystem
 Version 	Key Features 	File
-v6.2 	Dynamic Φ-operator via trailer metrics 	`films/mol_forecast_hail_mary_v1_202511_v6.2.py`
-v6.1 	Cross-validation implementation 	`films/mol_forecast_hail_mary_v1_202511_v6.1.py`
-Baseline 	Core principles instantiation 	`films/mol_forecast_hail_mary_v1_202511.py`
+[v6.2 	Dynamic Φ-operator via trailer metrics](films/mol_forecast_hail_mary_v1_202511_v6.2.py)
+[v6.1 	Cross-validation implementation](films/mol_forecast_hail_mary_v1_202511_v6.1.py)
+[Baseline 	Core principles instantiation](films/mol_forecast_hail_mary_v1_202511.py)
+
+---
+
 📂 Empirical Research Compendium
 Core Predictive Models
 
