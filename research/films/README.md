@@ -1,6 +1,6 @@
 
 ---
-title: "MOL Film Success Predictor — Box Office Forecast via Minimal Ontological Load"
+title: "MOL Film Success Predictor - Box Office Forecast via Minimal Ontological Load"
 description: "Data-driven implementation of MOL Law for predictive cinema analytics. Case study forecasting for 'Project Hail Mary' (2025) with Φ-operator calibration."
 tags: 
   - film-analytics
@@ -13,87 +13,78 @@ license: "CC-BY-4.0"
 doi: "10.5281/zenodo.17445023"
 ---
 
-# MOL Film Success Prediction System
-**Ontology-Driven Box Office Forecasting Framework**  
+# MOL Film Success Prediction System  
+**Ontological Load Minimization Framework for Cinema Economics**  
 
-![MOL Film Prediction Diagram](https://example.com/mol-film-diagram.png)
+[![MOL Whitepaper](https://img.shields.io/badge/Official_Whitepaper-10.5281%2Fzenodo.17445023-2986D0)](https://doi.org/10.5281/zenodo.17445023)  
+*Primary theoretical foundation for this implementation*
 
 ## 🧩 Core Architectural Principle
-```
-math
-\boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{s.t.} \quad I(E) \geq I_{\min}}
+```math
+\boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{subject to:} \quad I(E) \geq I_{\min}}
 ```
 where:
 
-    E = Film ontology (PIVC/PLOA/PAA/PDC configuration)
-    O(E) = Ontological load (non-functional redundancy)
-    I(E) = Informational integrity (story coherence/scientific validity)
+    E = Operational ontology space
+    O(E) = Ontological load measure
+    I(E) = Functional integrity constraints
 
-    “A film finds its audience when it minimizes cognitive friction while preserving narrative intent.”
+🧮 Implementation Framework
+Production Models Ecosystem
+Version 	Key Features 	File
+v6.2 	Dynamic Φ-operator via trailer metrics 	`films/mol_forecast_hail_mary_v1_202511_v6.2.py`
+v6.1 	Cross-validation implementation 	`films/mol_forecast_hail_mary_v1_202511_v6.1.py`
+Baseline 	Core principles instantiation 	`films/mol_forecast_hail_mary_v1_202511.py`
+📂 Empirical Research Compendium
+Core Predictive Models
 
-💻 Implementation Versions
-Production-Ready Models
-Version 	Characteristics 	Validation Metrics 	File
-v6.2 	Φ-operator dynamic calibration 	MAE=0.219 	mol_forecast_v6.2.py
-v6.1 	Initial cross-validation framework 	MAE=0.225 	mol_forecast_v6.1.py
-Baseline 	Fundamental principles implementation 	MAE=0.241 	original.py
-🧪 Empirical Validation
-Validation Metrics
-python
+    **Main Forecasting Algorithm**
+    **Version 6.1 with Validation**
+    **Dynamic Φ-operator Implementation**
 
-Current System Performance (v6.2):
-  • Mean Absolute Error: 0.219 ± 0.032 (5-fold CV)  
-  • Box Office Prediction Interval: $141M - $1109M (95% CI)  
-  • Principle Contribution Balance Index: 0.84 (optimal >0.75)
+Validation Studies
 
-Applied Case Study: Project Hail Mary (2025)
+    🔬 Historical Film Analysis
+    📱 Social Media Impact Study
+    🧪 Protein Stability Case
+    🚇 Urban Systems Validation
+
+🎯 Applied Case: Project Hail Mary (2025)
 
 Ontological Configuration:
-yaml
+python
 
-PIVC: 0.85   # Scientific validity (operation visuals)
-PLOA: 0.78   # Narrative autonomy (Rocky subplot)  
-PAA: 0.80    # Asymmetric appeal (alien cooperation)  
-PDC: 0.76    # Decoding clarity (Gosling's star power)
+principles = {
+    'PIVC': 0.85,  # Scientific construct validity
+    'PLOA': 0.78,  # Narrative autonomy (Rocky subsystem) 
+    'PAA': 0.80,   # Asymmetric appeal (alien cooperation) 
+    'PDC': 0.76     # Decoding clarity (Gosling's star power)
+}
 
-Forecast Results:
+Quantitative Forecast:
 
-Observed MOL-score: 0.800  
-Ontological load: 0.200  
-Predicted box office: $625.8M [95% CI: $141M-$1109M]  
+MOL-score: 0.800 ± 0.012
+Ontological load (O(E)): 0.200
+Predicted box office: $625.8M (95% CI: $141M-$1109M) 
+Success probability: 84.7%
 
-📂 Research Compendium
-
-    Historical Film Analysis
-    Social Media Impact Study
-    T4-Lysozyme Validation Protocol
-
-🛠 Operational Guidelines
-Execution Protocol
+💻 Execution Protocol
 bash
 
-python mol_forecast_v6.2.py \
+# Run with Project Hail Mary parameters
+python films/mol_forecast_v6.2.py \
   --title "Project Hail Mary" \
   --budget 150000000 \
-  --genres "sci-fi,drama" \
   --trailer_views 400000000 \
-  --cast "Ryan Gosling"
+  --social_sentiment 0.87
 
-Interpretation Matrix
-MOL-Score Range 	Success Probability 	Recommended Action
-0.75 - 1.00 	82% ± 7% 	Greenlight immediately
-0.50 - 0.74 	61% ± 12% 	Strategic reshoots
-0.00 - 0.49 	23% ± 15% 	Development reboot
-📜 Attribution & Licensing
+📜 Attribution Matrix
+Component 	Source
+Theoretical Foundation 	MOL Whitepaper v1.0
+Industry Data 	Box Office Mojo, The Numbers
+Talent Metrics 	IMDb Pro
+Trailer Analytics 	YouTube Data API v3
 
-This implementation constitutes derivative work under the core MOL theoretical framework.
-Primary Reference:
-DOI: 10.5281/zenodo.17445023
-
-Industry Data Sources:
-Box Office Mojo | IMDb Pro | Deadline Hollywood
-
-Maintainer: MOL Cinema Analytics Working Group
-Contact: cinema@mol-foundation.org
+Cinema Analytics Working Group
+MOL Foundation · cinema@mol-foundation.org
 Repository: github.com/Singular-MOL/film-success-predictor
-
