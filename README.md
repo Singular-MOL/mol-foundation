@@ -95,7 +95,7 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 - [🧩 Principles Guide](metaprinciples/)
 
 ## 🛠 Tools and Implementation
-- [film_mol_analyzer.py - Cultural systems analysis (film industry).](tools/DATA_INSTRUCTIONS_FILM_INDUSTRY_ ANALYSIS.md)
+- [film_mol_analyzer.py - Cultural systems analysis (film industry)](tools/DATA_INSTRUCTIONS_FILM_INDUSTRY_ ANALYSES.md)
 - [mol_demo.py](tools/mol_demo.py) - MOL principles demonstration
 - [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Real systems analyzer
 - [Data Instructions](tools/DATA_INSTRUCTIONS.md)
