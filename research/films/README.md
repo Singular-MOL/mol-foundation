@@ -33,18 +33,18 @@ where:
 🧮 Implementation Framework
 Production Models Ecosystem
 Version 	Key Features 	File
-[v6.2 	Dynamic Φ-operator via trailer metrics](films/mol_forecast_hail_mary_v1_202511_v6.2.py)
-[v6.1 	Cross-validation implementation](films/mol_forecast_hail_mary_v1_202511_v6.1.py)
-[Baseline 	Core principles instantiation](films/mol_forecast_hail_mary_v1_202511.py)
+v6.2 	Dynamic Φ-operator via trailer metrics
+v6.1 	Cross-validation implementation
+Baseline 	Core principles instantiation
 
 ---
 
 📂 Empirical Research Compendium
 Core Predictive Models
 
-    **Main Forecasting Algorithm**
-    **Version 6.1 with Validation**
-    **Dynamic Φ-operator Implementation**
+  [**Main Forecasting Algorithm**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511.py)
+  [**Version 6.1 with Validation**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.1.py)
+  [**Dynamic Φ-operator Implementation**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)
 
 Validation Studies
 
