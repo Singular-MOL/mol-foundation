@@ -48,7 +48,8 @@ Core Predictive Models
 
 [**Version 6.1 with Validation**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.1.py)
 
-[**Dynamic Φ-operator Implementation**(v. 6.2)](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)
+[Dynamic Φ-operator Implementation](mol_forecast_hail_mary_v1_202511_v6.2.py)
+
 Validation Studies
 
     🔬 Historical Film Analysis
