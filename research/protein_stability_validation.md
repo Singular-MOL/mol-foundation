@@ -1,3 +1,21 @@
+---
+
+title: "MOL Oscillator Experiments – Full Sweep Analysis"
+description:"Scientific experiments on oscillator networks using the Law of Minimal Ontological Load (MOL). Full sweep over K, alpha, sigma, and omega_spread for transparency and reproducibility."
+tags:
+
+· oscillators
+· kuramoto-model
+· mol-law
+· complex-systems
+· phase-coherence
+· ontological-load
+· PAD-principle
+· PPD-principle
+  license:"CC-BY-4.0"
+  doi:"10.5281/zenodo.17445023"
+
+https://zenodo.org/badge/DOI/10.5281/zenodo.17445023.svg
 
 ---
 
