@@ -12,10 +12,11 @@ tags:
 · ontological-load
 · PAD-principle
 · PPD-principle
-  license:"CC-BY-4.0"
-  doi:"10.5281/zenodo.17445023"
+  license: "CC-BY-4.0"
+doi: "10.5281/zenodo.17445023"
+---
 
-https://zenodo.org/badge/DOI/10.5281/zenodo.17445023.svg
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17445023.svg)](https://doi.org/10.5281/zenodo.17445023)
 
 ---
 
