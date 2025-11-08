@@ -22,6 +22,17 @@ doi: "10.5281/zenodo.17445023"
 
 This case study demonstrates the system with **'Project Hail Mary' (2025)**.
 
+## 🎯 PREDICTION VALIDATION TIMELINE
+- **2025:** MOL forecast published
+- **2026:** Film release
+- **2027:** Box office results available  
+- **2027:** Forecast accuracy evaluation
+
+## 📊 SUCCESS CRITERIA
+Prediction considered successful if:
+- Actual box office within confidence interval ($141M-$1109M)
+- Or within 30% of point estimate ($438M-$813M)
+
 ## 🧩 Core Architectural Principle
 ```math
 \boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{subject to:} \quad I(E) \geq I_{\min}}
