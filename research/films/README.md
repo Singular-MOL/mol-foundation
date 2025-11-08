@@ -13,86 +13,95 @@ license: "CC-BY-4.0"
 doi: "10.5281/zenodo.17445023"
 ---
 
-# MOL Film Success Prediction System  
-**Ontological Load Minimization Framework for Cinema Economics**  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17445023.svg)](https://doi.org/10.5281/zenodo.17445023)
 
-[![MOL Whitepaper](https://img.shields.io/badge/Official_Whitepaper-10.5281%2Fzenodo.17445023-2986D0)](https://doi.org/10.5281/zenodo.17445023)  
-*Primary theoretical foundation for this implementation*
+# MOL Film Success Prediction System  
+**Ontological Load Minimization Framework for Cinema Economics**
+
+**MOL Film Success Predictor** is a data-driven implementation of the **Law of Minimal Ontological Load (MOL)**, applying the Φ-operator framework to cinema economics. The system predicts box office performance of films using ontological load minimization, narrative structure analysis, and talent metrics.  
+
+This case study demonstrates the system with **'Project Hail Mary' (2025)**.
 
 ## 🧩 Core Architectural Principle
 ```math
 \boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{subject to:} \quad I(E) \geq I_{\min}}
-```
+````
+
 where:
 
-    E = Operational ontology space
-    O(E) = Ontological load measure
-    I(E) = Functional integrity constraints
----
-
-🧮 Implementation Framework
-Production Models Ecosystem
-Version 	Key Features 	File
-
-v6.2 	Dynamic Φ-operator via trailer metrics
-
-v6.1 	Cross-validation implementation
-Baseline 	Core principles instantiation
+* E = Operational ontology space
+* O(E) = Ontological load measure
+* I(E) = Functional integrity constraints
 
 ---
 
-📂 Empirical Research Compendium
-Core Predictive Models
+## 🧮 Implementation Framework
 
-[**Main Forecasting Algorithm**](mol_forecast_hail_mary_v1_202511.py)
+**Production Models Ecosystem**
 
-[**Version 6.1 with Validation**](mol_forecast_hail_mary_v1_202511_v6.1.py)
+| Version  | Key Features                           | File                                                                                                                                                        |
+| -------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| v6.2     | Dynamic Φ-operator via trailer metrics | [mol_forecast_hail_mary_v1_202511_v6.2.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511_v6.2.py) |
+| v6.1     | Cross-validation implementation        | [mol_forecast_hail_mary_v1_202511_v6.1.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511_v6.1.py) |
+| Baseline | Core principles instantiation          | [mol_forecast_hail_mary_v1_202511.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511.py)           |
 
-[Dynamic Φ-operator Implementation](mol_forecast_hail_mary_v1_202511_v6.2.py)
+---
 
-Validation Studies
+## 📂 Empirical Research Compendium
 
-    🔬 Historical Film Analysis
-    📱 Social Media Impact Study
-    🧪 Protein Stability Case
-    🚇 Urban Systems Validation
+**Validation Studies:**
 
-🎯 Applied Case: Project Hail Mary (2025)
+* 🔬 Historical Film Analysis
+* 📱 Social Media Impact Study
+* 🧪 Protein Stability Case (MOL cross-domain validation)
+* 🚇 Urban Systems Validation
 
-Ontological Configuration:
-python
+**Applied Case:** Project Hail Mary (2025)
 
+**Ontological Configuration:**
+
+```python
 principles = {
     'PIVC': 0.85,  # Scientific construct validity
     'PLOA': 0.78,  # Narrative autonomy (Rocky subsystem) 
     'PAA': 0.80,   # Asymmetric appeal (alien cooperation) 
-    'PDC': 0.76     # Decoding clarity (Gosling's star power)
+    'PDC': 0.76    # Decoding clarity (Gosling's star power)
 }
+```
 
-Quantitative Forecast:
+**Quantitative Forecast:**
 
-MOL-score: 0.800 ± 0.012
-Ontological load (O(E)): 0.200
-Predicted box office: $625.8M (95% CI: $141M-$1109M) 
-Success probability: 84.7%
+* MOL-score: 0.800 ± 0.012
+* Ontological load (O(E)): 0.200
+* Predicted box office: $625.8M (95% CI: $141M-$1109M)
+* Success probability: 84.7%
 
-💻 Execution Protocol
-bash
+**💻 Execution Protocol**
 
+```bash
 # Run with Project Hail Mary parameters
 python films/mol_forecast_v6.2.py \
   --title "Project Hail Mary" \
   --budget 150000000 \
   --trailer_views 400000000 \
   --social_sentiment 0.87
+```
 
-📜 Attribution Matrix
-Component 	Source
-Theoretical Foundation 	MOL Whitepaper v1.0
-Industry Data 	Box Office Mojo, The Numbers
-Talent Metrics 	IMDb Pro
-Trailer Analytics 	YouTube Data API v3
+---
 
-Cinema Analytics Working Group
-MOL Foundation · cinema@mol-foundation.org
-Repository: github.com/Singular-MOL/film-success-predictor
+## 📜 Attribution Matrix
+
+| Component              | Source                                                                                         |
+| ---------------------- | ---------------------------------------------------------------------------------------------- |
+| Theoretical Foundation | [MOL Whitepaper v1.0](https://doi.org/10.5281/zenodo.17445023)                                 |
+| Industry Data          | [Box Office Mojo](https://www.boxofficemojo.com/), [The Numbers](https://www.the-numbers.com/) |
+| Talent Metrics         | [IMDb Pro](https://pro.imdb.com/)                                                              |
+| Trailer Analytics      | [YouTube Data API v3](https://developers.google.com/youtube/v3)                                |
+
+---
+
+**Cinema Analytics Working Group**
+MOL Foundation · [cinema@mol-foundation.org](mailto:cinema@mol-foundation.org)
+Repository: [github.com/Singular-MOL/film-success-predictor](https://github.com/Singular-MOL/film-success-predictor)
+
+```
