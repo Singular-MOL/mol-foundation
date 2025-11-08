@@ -155,10 +155,10 @@ Destabilizing Mutations 83.3% (10/12) 16.7% (2/12) 5.0x
 
 Key Performance Indicators
 
-· MOL Precision: 90.9% (correctly identified 10/11 destabilizing mutations)
-· DeepDDG Precision: 33.3% (correctly identified 2/6 predicted destabilizing mutations)
-· Statistical Significance: p < 0.001 (Fisher's exact test)
-· Effect Size: Cohen's d = 1.84 (large effect)
+· MOL Precision: 90.9% (correctly identified 10/11 destabilizing mutations)  
+· DeepDDG Precision: 33.3% (correctly identified 2/6 predicted destabilizing mutations)  
+· Statistical Significance: p < 0.001 (Fisher's exact test)  
+· Effect Size: Cohen's d = 1.84 (large effect)  
 
 ---
 
@@ -217,10 +217,10 @@ O_ℰ = 0  # Conservative substitution preserves:
 
 Data Availability
 
-· Full mutation dataset: [GitHub Link]
-· O(ℰ) calculation code: [GitHub Link]
-· Structural analysis scripts: [GitHub Link]
-· Blind test validation: PDB 7LX7 (DOI: 10.2210/pdb7LX7/pdb)
+· Full mutation dataset: [GitHub Link]  
+· O(ℰ) calculation code: [GitHub Link] 
+· Structural analysis scripts: [GitHub Link]  
+· Blind test validation: PDB 7LX7 (DOI: 10.2210/pdb7LX7/pdb)  
 
 Reproducibility
 
