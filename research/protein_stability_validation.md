@@ -203,10 +203,9 @@ O_ℰ = 3  # Cavity >150Å³, 10+ vdw contacts lost, cluster disrupted
 
 **Data Access:**
 
-* DeepDDG predictions: [1L63.ddg.csv](http://protein.org.cn/uploads/ddg/45000467/1L63.ddg.csv)
+* DeepDDG predictions: [1L63.ddg.csv](/research/1L63.ddg.csv)
 * Experimental ΔΔG: Matthews et al. (1995), verified via ProTherm
-* MOL code: [`O_ℰ_calculator.py`](#)
-* Full dataset: [`data/T4L_dataset.csv`](#)
+* MOL code: [`O_ℰ_calculator.py`](/research/O_ℰ_calculator.py)
 
 **Reproduce Locally:**
 
@@ -243,7 +242,7 @@ This establishes **O(ℰ)** as a predictive structural metric — bridging physi
 
 1. Matthews, B.W. (1995). *Studies on Protein Stability With T4 Lysozyme*
 2. Kamenik, A.S. et al. (2021). *PNAS* 118 — PDB 7LX7
-3. DeepDDG: [http://protein.org.cn/deepddg](http://protein.org.cn/deepddg)
+3. DeepDDG: [http://protein.org.cn/deepddg]([http://protein.org.cn/deepddg](https://protein.org.cn/ddg.html))
 4. MOL Foundation (2025). *Law of Minimal Ontological Load*, DOI: 10.5281/zenodo.17445023
 
 ---
