@@ -1,4 +1,25 @@
 ---
+title: "The Law of Minimal Ontological Load (MOL)"
+description: "Universal meta-principle of self-organization across complex systems. Formally: E* = arg min O(E) subject to I ≥ I_min"
+tags:
+  - mol-law
+  - ontological-load
+  - complex-systems
+  - self-organization
+  - universal-principle
+  - meta-principles
+  - systems-theory
+  - emergence
+  - protein-folding
+  - evolutionary-dynamics
+  - information-theory
+  - physics
+  - biology
+  - cognitive-science
+  - social-systems
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.17445023"
+---
 
 # The Law of Minimal Ontological Load (MOL)
 
