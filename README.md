@@ -81,7 +81,7 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 🧬 **[Physics of Oscillators](research/oscillators/mol_oscillators_full_sweep.py)** - MOL testing on pendulums  
 🌐 **[Social Platforms](./research/social_media_analysis.md)** - Lifecycle mode identification with 89% precision  
 🚆 **[Transport Networks](./research/transport_network_mol.md)** - Identification of 1,702 problematic nodes requiring optimization  
-🎬 **[Film industry](research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)** - Forecast of film success
+🎬 **[Film industry](research/films/README.md)** - Forecast of film success
 
 ## 📚 Official Publications
 
