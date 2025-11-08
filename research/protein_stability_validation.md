@@ -43,7 +43,7 @@ All DeepDDG predictions were obtained **independently** from the official DeepDD
 
 **Job ID:** 45000467  
 **Submission Date:** 2025-10-22  
-**Server:** http://protein.org.cn/deepddg  
+**Server:** [http://protein.org.cn/deepddg](https://protein.org.cn/ddg.html)  
 **Result File:** [1L63.ddg.csv](/research/1L63.ddg.csv)
 
 Each row in the dataset corresponds to a single-point mutation prediction of ΔΔG (kcal/mol):  
