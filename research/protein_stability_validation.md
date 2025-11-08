@@ -51,10 +51,10 @@ Protein stability is determined not only by thermodynamic energy (ΔG) but by on
 
 Why T4 Lysozyme?
 
-· Gold standard in protein folding studies (Matthews et al. 1995)
-· Comprehensive mutation database with experimental ΔΔG measurements
-· High-resolution structures available for structural analysis
-· Well-characterized hydrophobic core and secondary structures
+· Gold standard in protein folding studies (Matthews et al. 1995)  
+· Comprehensive mutation database with experimental ΔΔG measurements  
+· High-resolution structures available for structural analysis  
+· Well-characterized hydrophobic core and secondary structures  
 
 Independent Validation
 
@@ -94,17 +94,17 @@ def calculate_O_ℰ(mutation):
 
 Validation Framework
 
-· Protein: T4 Lysozyme (PDB: 1L63)
-· Data Source: Matthews et al. (1995) mutation database + independent DeepDDG predictions
-· Comparison Baseline: DeepDDG (state-of-the-art neural network for ΔΔG prediction)
-· Evaluation Metric: Experimental ΔΔG measurements
-· Blind Test: Structure 7LX7 (L99A mutant, 2021) - DOI: 10.2210/pdb7LX7/pdb
+· Protein: T4 Lysozyme (PDB: 1L63)  
+· Data Source: Matthews et al. (1995) mutation database + independent DeepDDG predictions  
+· Comparison Baseline: DeepDDG (state-of-the-art neural network for ΔΔG prediction)  
+· Evaluation Metric: Experimental ΔΔG measurements  
+· Blind Test: Structure 7LX7 (L99A mutant, 2021) - DOI: 10.2210/pdb7LX7/pdb  
 
 Statistical Analysis
 
-· Fisher's exact test for significance
-· Correlation analysis O(ℰ) vs experimental ΔΔG
-· Precision/recall metrics for stability prediction
+· Fisher's exact test for significance  
+· Correlation analysis O(ℰ) vs experimental ΔΔG  
+· Precision/recall metrics for stability prediction  
 
 ---
 
@@ -112,7 +112,7 @@ Statistical Analysis
 
 T4 Lysozyme Mutations Analysis (28 variants)
 
-Mutation Experimental ΔΔG MOL O(ℰ) DeepDDG ΔΔG MOL Correct DeepDDG Correct O(ℰ) Rationale
+Mutation Experimental ΔΔG MOL O(ℰ) DeepDDG ΔΔG MOL Correct DeepDDG Correct O(ℰ) Rationale  
 L99A +5.0 3 -3.6 ✅ ❌ Core cavity violation + packing disruption  
 L46A +2.7 2 -2.1 ✅ ❌ Core packing disruption  
 L121A +2.7 2 -2.5 ✅ ❌ Core packing disruption  
@@ -233,9 +233,9 @@ python O_ℰ_calculator.py --pdb 1L63 --mutation L99A
 
 Limitations
 
-· Current O(ℰ) criteria optimized for T4 lysozyme
-· Requires manual structural analysis
-· Future work: Automated O(ℰ) calculation
+· Current O(ℰ) criteria optimized for T4 lysozyme  
+· Requires manual structural analysis  
+· Future work: Automated O(ℰ) calculation  
 
 ---
 
@@ -245,25 +245,25 @@ Limitations
 
 "Minimum Ontological Load → Maximum Stability" confirmed empirically:
 
-· High O(ℰ) mutations are experimentally destabilizing
-· Low O(ℰ) mutations preserve structural integrity
-· Ontological coherence predicts physical properties
+· High O(ℰ) mutations are experimentally destabilizing  
+· Low O(ℰ) mutations preserve structural integrity  
+· Ontological coherence predicts physical properties  
 
 2. Explainable AI Advantage
 
 MOL provides structural reasoning vs black-box predictions:
 
-· Interpretable criteria (packing, charges, symmetry)
-· Structural insights for protein design
-· No training data required
+· Interpretable criteria (packing, charges, symmetry)  
+· Structural insights for protein design  
+· No training data required  
 
 3. Universal Applicability
 
 Principle extends beyond proteins to:
 
-· Materials science (crystal stability)
-· Social systems (institutional design)
-· Cognitive architectures (information processing)
+· Materials science (crystal stability)  
+· Social systems (institutional design)  
+· Cognitive architectures (information processing)  
 
 ---
 
@@ -279,10 +279,10 @@ Independent blind testing on novel structure 7LX7 confirms predictive capability
 
 📚 References
 
-1. Matthews, B.W. (1995). Studies on Protein Stability With T4 Lysozyme
-2. Kamenik, A.S. et al. (2021). PNAS 118 - PDB 7LX7
-3. DeepDDG: State-of-the-art ΔΔG prediction server
-4. MOL Foundation. (2025). Law of Minimal Ontological Load - DOI: 10.5281/zenodo.17445023
+1. Matthews, B.W. (1995). Studies on Protein Stability With T4 Lysozyme  
+2. Kamenik, A.S. et al. (2021). PNAS 118 - PDB 7LX7  
+3. DeepDDG: State-of-the-art ΔΔG prediction server  
+4. MOL Foundation. (2025). Law of Minimal Ontological Load - DOI: 10.5281/zenodo.17445023  
 
 The MOL Foundation · rudiiik@yandex.ru · GitHub Repository
 
