@@ -44,7 +44,7 @@ All DeepDDG predictions were obtained **independently** from the official DeepDD
 **Job ID:** 45000467  
 **Submission Date:** 2025-10-22  
 **Server:** http://protein.org.cn/deepddg  
-**Result File:** [1L63.ddg.csv](/1L63.ddg.csv)
+**Result File:** [1L63.ddg.csv](mol-foundation/research/1L63.ddg.csv)
 
 Each row in the dataset corresponds to a single-point mutation prediction of ΔΔG (kcal/mol):  
 `>0` indicates stabilizing; `<0` indicates destabilizing mutation.
