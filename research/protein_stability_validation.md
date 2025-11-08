@@ -5,12 +5,12 @@ title: "Experimental Validation: MOL Outperforms AI in Protein Stability Predict
 description:"Empirical proof that MOL's ontological load principle achieves 85.7% accuracy in protein stability prediction, significantly outperforming state-of-the-art DeepDDG neural network (21.4%)."
 tags:
 
-· protein-stability
-· ontological-load
-· mol-law
-· bioinformatics
-· explainable-ai
-· structural-biology
+· protein-stability  
+· ontological-load  
+· mol-law  
+· bioinformatics  
+· explainable-ai  
+· structural-biology  
   license:"CC-BY-4.0"
   doi:"10.5281/zenodo.17445023"
 
@@ -28,18 +28,18 @@ Key Innovation: MOL provides explainable structural reasoning vs black-box predi
 
 Step-by-Step Methodology
 
-1. Developed O(ℰ) criteria based on general structural principles
-2. Obtained DeepDDG predictions from independent AI server
-3. Collected experimental ΔΔG data from Matthews et al. (1995)
-4. Applied MOL analysis to 28 mutations using pre-defined criteria
-5. Conducted blind testing on novel structure 7LX7 (2021)
+1. Developed O(ℰ) criteria based on general structural principles  
+2. Obtained DeepDDG predictions from independent AI server  
+3. Collected experimental ΔΔG data from Matthews et al. (1995)  
+4. Applied MOL analysis to 28 mutations using pre-defined criteria  
+5. Conducted blind testing on novel structure 7LX7 (2021)  
 
 Data Independence
 
-· O(ℰ) criteria defined before accessing prediction results
-· DeepDDG data sourced from external server (1000+ predictions)
-· Experimental validation using literature ground truth
-· Blind test on completely novel structure 7LX7
+· O(ℰ) criteria defined before accessing prediction results  
+· DeepDDG data sourced from external server (1000+ predictions)  
+· Experimental validation using literature ground truth  
+· Blind test on completely novel structure 7LX7  
 
 ---
 
