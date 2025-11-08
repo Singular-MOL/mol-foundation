@@ -4,14 +4,13 @@
 title: "Experimental Validation: MOL Outperforms AI in Protein Stability Prediction"
 description:"Empirical proof that MOL's ontological load principle achieves 85.7% accuracy in protein stability prediction, significantly outperforming state-of-the-art DeepDDG neural network (21.4%)."
 tags:
-
 · protein-stability  
 · ontological-load  
 · mol-law  
 · bioinformatics  
 · explainable-ai  
 · structural-biology  
-  license: "CC-BY-4.0"
+  license: "CC-BY-4.0"  
 doi: "10.5281/zenodo.17445023"
 ---
 
