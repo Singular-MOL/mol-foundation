@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the DOI."
+title: "The MOL Foundation — Universal Law of Minimal Ontological Load"
+authors:
+  - family-names: "Singular"
+    given-names: "Rudiiik"
+doi: "10.5281/zenodo.17445023"
+url: "https://github.com/Singular-MOL/mol-foundation"
+date-released: "2025-10-26"
+version: "v1.0"
