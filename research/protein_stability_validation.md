@@ -113,33 +113,33 @@ Statistical Analysis
 T4 Lysozyme Mutations Analysis (28 variants)
 
 Mutation Experimental ΔΔG MOL O(ℰ) DeepDDG ΔΔG MOL Correct DeepDDG Correct O(ℰ) Rationale
-L99A +5.0 3 -3.6 ✅ ❌ Core cavity violation + packing disruption
-L46A +2.7 2 -2.1 ✅ ❌ Core packing disruption
-L121A +2.7 2 -2.5 ✅ ❌ Core packing disruption
-L118A +1.8 1 -2.4 ✅ ❌ Moderate packing change
-L133A +2.2 2 -1.7 ✅ ❌ Core packing + local geometry
-F153A +3.5 2 -2.7 ✅ ❌ Aromatic cluster loss
-V131G +3.2 2 -0.2 ✅ ❌ Helix packing disruption
-I53A +1.8 1 -0.3 ✅ ✅ Moderate β-sheet packing
-I3V -0.5 0 -0.8 ✅ ❌ Conservative surface substitution
-I3A +0.8 1 -1.5 ✅ ❌ N-terminal volume loss
-I17A +2.7 1 -1.8 ✅ ❌ β-sheet packing change
-I29A +1.2 1 -2.1 ✅ ❌ Surface-core interface
-D20N +0.3 0 -1.1 ✅ ❌ Neutral surface substitution
-S44A +1.0 1 -0.1 ✅ ✅ Helix N-cap influence
-T45V +1.5 1 -0.4 ✅ ❌ Helix N-cap properties
-N44A +3.3 2 -0.3 ✅ ❌ Polar residue loss in structured region
-K97G +1.2 2 -0.7 ✅ ❌ Charge loss in structured region
-V75A -0.1 0 -0.6 ✅ ❌ Surface substitution
-Y103A +3.0 3 -0.9 ✅ ❌ Aromatic cluster + packing loss
-H93G +0.01 1 +0.01 ✅ ✅ Ligand contact disruption
-T87A +0.5 0 -1.5 ✅ ❌ Loop region substitution
-A98V +0.2 1 -4.8 ❌ ❌ Core neighbor packing
-G70A +2.0 2 -0.7 ✅ ❌ Gly flexibility loss in helix
-P80A +1.8 2 -0.2 ✅ ❌ Proline kink disruption
-L133I -0.1 0 -1.2 ✅ ❌ Conservative core substitution
-S117A +0.4 1 +0.01 ✅ ✅ Polar to Ala surface change
-V111A +1.1 1 -1.7 ✅ ❌ Core proximity packing
+L99A +5.0 3 -3.6 ✅ ❌ Core cavity violation + packing disruption  
+L46A +2.7 2 -2.1 ✅ ❌ Core packing disruption  
+L121A +2.7 2 -2.5 ✅ ❌ Core packing disruption  
+L118A +1.8 1 -2.4 ✅ ❌ Moderate packing change  
+L133A +2.2 2 -1.7 ✅ ❌ Core packing + local geometry  
+F153A +3.5 2 -2.7 ✅ ❌ Aromatic cluster loss  
+V131G +3.2 2 -0.2 ✅ ❌ Helix packing disruption  
+I53A +1.8 1 -0.3 ✅ ✅ Moderate β-sheet packing  
+I3V -0.5 0 -0.8 ✅ ❌ Conservative surface substitution  
+I3A +0.8 1 -1.5 ✅ ❌ N-terminal volume loss  
+I17A +2.7 1 -1.8 ✅ ❌ β-sheet packing change  
+I29A +1.2 1 -2.1 ✅ ❌ Surface-core interface  
+D20N +0.3 0 -1.1 ✅ ❌ Neutral surface substitution  
+S44A +1.0 1 -0.1 ✅ ✅ Helix N-cap influence  
+T45V +1.5 1 -0.4 ✅ ❌ Helix N-cap properties  
+N44A +3.3 2 -0.3 ✅ ❌ Polar residue loss in structured region  
+K97G +1.2 2 -0.7 ✅ ❌ Charge loss in structured region  
+V75A -0.1 0 -0.6 ✅ ❌ Surface substitution  
+Y103A +3.0 3 -0.9 ✅ ❌ Aromatic cluster + packing loss  
+H93G +0.01 1 +0.01 ✅ ✅ Ligand contact disruption  
+T87A +0.5 0 -1.5 ✅ ❌ Loop region substitution  
+A98V +0.2 1 -4.8 ❌ ❌ Core neighbor packing  
+G70A +2.0 2 -0.7 ✅ ❌ Gly flexibility loss in helix  
+P80A +1.8 2 -0.2 ✅ ❌ Proline kink disruption  
+L133I -0.1 0 -1.2 ✅ ❌ Conservative core substitution  
+S117A +0.4 1 +0.01 ✅ ✅ Polar to Ala surface change  
+V111A +1.1 1 -1.7 ✅ ❌ Core proximity packing  
 
 ---
 
@@ -147,11 +147,11 @@ V111A +1.1 1 -1.7 ✅ ❌ Core proximity packing
 
 Performance Metrics
 
-Metric MOL (O(ℰ)) DeepDDG Advantage
-Overall Accuracy 85.7% (24/28) 21.4% (6/28) 4.0x
-Correlation with Experiment 0.76 -0.15 Significant
-Stability Prediction 88.9% (16/18) 22.2% (4/18) 4.0x
-Destabilizing Mutations 83.3% (10/12) 16.7% (2/12) 5.0x
+Metric MOL (O(ℰ)) DeepDDG Advantage  
+Overall Accuracy 85.7% (24/28) 21.4% (6/28) 4.0x  
+Correlation with Experiment 0.76 -0.15 Significant  
+Stability Prediction 88.9% (16/18) 22.2% (4/18) 4.0x  
+Destabilizing Mutations 83.3% (10/12) 16.7% (2/12) 5.0x  
 
 Key Performance Indicators
 
