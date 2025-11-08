@@ -78,8 +78,10 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 📈 **[Historical Analysis](./research/historical_analysis.md)** - Prediction of state collapse with 75% accuracy  
 🔬 **Materials Science** - 5x improvement in thermal conductivity in nanostructures  
 🧬 **[Protein Stability](./research/protein_stability_validation.md)** - 85.7% prediction accuracy vs 21.4% for DeepDDG neural network  
+🧬 **[Physics of Oscillators](research/oscillators/mol_oscillators_full_sweep.py)** - MOL testing on pendulums
 🌐 **[Social Platforms](./research/social_media_analysis.md)** - Lifecycle mode identification with 89% precision  
 🚆 **[Transport Networks](./research/transport_network_mol.md)** - Identification of 1,702 problematic nodes requiring optimization
+🎬 **[Film industry](research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)** - Forecast of film success
 
 ## 📚 Official Publications
 
@@ -97,7 +99,7 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 - [🧩 Principles Guide](metaprinciples/)
 
 ## 🛠 Tools and Implementation
-- [INSTRUCTIONS_FILM_INDUSTRY](tools/DATA_INSTRUCTIONS_FILM_INDUSTRY_ANALYSIS.md) - Cultural systems analysis (film industry)
+- [FILM_INDUSTRY](research/films/mol_forecast_hail_mary_v1_202511_v6.2.py) - Systems analysis (film industry)
 - [mol_demo.py](tools/mol_demo.py) - MOL principles demonstration
 - [mol_real_analyzer.py](tools/mol_real_analyzer.py) - Real systems analyzer
 - [Data Instructions](tools/DATA_INSTRUCTIONS.md)
