@@ -44,11 +44,11 @@ Baseline 	Core principles instantiation
 📂 Empirical Research Compendium
 Core Predictive Models
 
-[**Main Forecasting Algorithm**](research/films/mol_forecast_hail_mary_v1_202511.py)
+[**Main Forecasting Algorithm**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511.py)
 
-[**Version 6.1 with Validation**](research/films/mol_forecast_hail_mary_v1_202511_v6.1.py)
+[**Version 6.1 with Validation**](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.1.py)
 
-[**Dynamic Φ-operator Implementation**(v. 6.2)](research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)
+[**Dynamic Φ-operator Implementation**(v. 6.2)](mol-foundation/research/films/mol_forecast_hail_mary_v1_202511_v6.2.py)
 Validation Studies
 
     🔬 Historical Film Analysis
