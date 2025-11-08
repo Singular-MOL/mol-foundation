@@ -39,11 +39,11 @@ where:
 
 **Production Models Ecosystem**
 
-| Version  | Key Features                           | File                                                                                                                                                        |
-| -------- | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| v6.2     | Dynamic Φ-operator via trailer metrics | [mol_forecast_hail_mary_v1_202511_v6.2.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511_v6.2.py) |
-| v6.1     | Cross-validation implementation        | [mol_forecast_hail_mary_v1_202511_v6.1.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511_v6.1.py) |
-| Baseline | Core principles instantiation          | [mol_forecast_hail_mary_v1_202511.py](https://github.com/Singular-MOL/film-success-predictor/blob/main/films/mol_forecast_hail_mary_v1_202511.py)           |
+| Version  | Key Features                           | File                                                                                                      |
+| -------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| v6.2     | Dynamic Φ-operator via trailer metrics | [mol_forecast_hail_mary_v1_202511_v6.2.py](../../research/films/mol_forecast_hail_mary_v1_202511_v6.2.py) |
+| v6.1     | Cross-validation implementation        | [mol_forecast_hail_mary_v1_202511_v6.1.py](../../research/films/mol_forecast_hail_mary_v1_202511_v6.1.py) |
+| Baseline | Core principles instantiation          | [mol_forecast_hail_mary_v1_202511.py](../../research/films/mol_forecast_hail_mary_v1_202511.py)           |
 
 ---
 
@@ -80,7 +80,7 @@ principles = {
 
 ```bash
 # Run with Project Hail Mary parameters
-python films/mol_forecast_v6.2.py \
+python mol_forecast_hail_mary_v1_202511_v6.2.py \
   --title "Project Hail Mary" \
   --budget 150000000 \
   --trailer_views 400000000 \
@@ -102,6 +102,6 @@ python films/mol_forecast_v6.2.py \
 
 **Cinema Analytics Working Group**
 MOL Foundation · [cinema@mol-foundation.org](mailto:cinema@mol-foundation.org)
-Repository: [github.com/Singular-MOL/film-success-predictor](https://github.com/Singular-MOL/film-success-predictor)
+Repository: [github.com/Singular-MOL/mol-foundation](https://github.com/Singular-MOL/mol-foundation)
 
 ```
