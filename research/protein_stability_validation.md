@@ -249,6 +249,6 @@ This establishes **O(ℰ)** as a predictive structural metric — bridging physi
 
 **Contact:**
 MOL Foundation · [rudiiik@yandex.ru](mailto:rudiiik@yandex.ru)
-GitHub: [Singular-MOL/dialogic-intelligence-architecture](https://github.com/Singular-MOL/dialogic-intelligence-architecture)
+GitHub: [Singular-MOL/mol-foundation/tree/main](https://github.com/Singular-MOL/mol-foundation/tree/main)
 
 ```
