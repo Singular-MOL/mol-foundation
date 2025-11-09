@@ -41,9 +41,9 @@ Unlike conventional models that assume space as a background, this demo starts f
 
 ## 🧪 Demonstration File
 
-| Component | Path |
-|----------|------|
-| [**Main Simulation**](/mol_cosmogenesis/mol_genesis_engine.py)|
+| Component |
+|----------|
+| [**Main Simulation**](/mol_genesis_engine.py)|
 
 **Execution:**
 ```bash
@@ -99,4 +99,4 @@ MOL posits that **dimensionality is selected by minimization of descriptive load
 📧 Contact: [rudiiik@yandex.ru](mailto:rudiiik@yandex.ru)  
 🌐 Website: [https://singular-mol.github.io/mol-foundation/](https://singular-mol.github.io/mol-foundation/)
 
-```
+---
