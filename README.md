@@ -90,7 +90,7 @@ Transition to a plane where symptoms are no longer interpreted as pathology
 | MOL Whitepaper v1.0 | Working paper | [10.5281/zenodo.17445023](https://doi.org/10.5281/zenodo.17445023) |
 | Philosophical Foundations | Publication | [10.5281/zenodo.17454907](https://doi.org/10.5281/zenodo.17454907) |
 | Mathematical Formalization | Publication | [10.5281/zenodo.17464082](https://doi.org/10.5281/zenodo.17464082) |
-| MOL_Computational_Formalization_v2. | md | [https://github.com/Singular-MOL/mol-foundation](mol-foundation/docs/MOL_Computational_Formalization_v2(English).md) |
+| MOL Computational Formalization v2. | md | [https://github.com/Singular-MOL/mol-foundation](/docs/MOL_Computational_Formalization_v2(English).md) |
 | Principles Guide & Meta-Principles Table | Publication | [10.5281/zenodo.17466598](https://doi.org/10.5281/zenodo.17466598) |
 
 **Local versions in repository:**
