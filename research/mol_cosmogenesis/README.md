@@ -43,7 +43,7 @@ Unlike conventional models that assume space as a background, this demo starts f
 
 | Component |
 |----------|
-| [**Main Simulation**](/mol_genesis_engine.py)|
+| [**Main Simulation**](/research/mol_cosmogenesis/mol_genesis_engine.py)|
 
 **Execution:**
 ```bash
