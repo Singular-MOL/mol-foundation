@@ -48,7 +48,7 @@ Unlike conventional models that assume space as a background, this demo starts f
 **Execution:**
 ```bash
 cd research/cosmogenesis
-python mol_cosmogenesis_demo.py
+python mol_genesis_engine.py
 ```
 
 **Sample Output:**
