@@ -1,12 +1,13 @@
 
 ---
-title: "MOL Cosmogenesis Demo — Emergence of Spatial Dimensionality via Minimal Ontological Load"
+title: "MOL Genesis Engine — From Nothing to 3D Space — Emergence of Spatial Dimensionality via Minimal Ontological Load"
 description: "Simulation of space genesis from pre-geometric ontological tension. Demonstrates how 3D structure emerges when O(ℰ) exceeds critical threshold, without assuming prior geometry."
 tags: 
   - cosmogenesis
   - ontological-load
   - emergent-spacetime
   - complex-systems
+  - phi-operator
   - mol-law
   - foundational-physics
 license: "CC-BY-4.0"
@@ -15,7 +16,7 @@ doi: "10.5281/zenodo.17445023"
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17445023.svg)](https://doi.org/10.5281/zenodo.17445023)
 
-# MOL Cosmogenesis Demo  
+# MOL Genesis Engine — From Nothing to 3D Space  
 **How Space Emerges from Ontological Necessity**
 
 This simulation implements the **Law of Minimal Ontological Load (MOL)** as a **cosmogonic mechanism**:  
@@ -42,7 +43,7 @@ Unlike conventional models that assume space as a background, this demo starts f
 
 | Component | Path |
 |----------|------|
-| **Main Simulation** | [`/research/cosmogenesis/mol_cosmogenesis_demo.py`](https://github.com/Singular-MOL/mol-foundation/blob/main/research/cosmogenesis/mol_cosmogenesis_demo.py) |
+| **Main Simulation** | [`/research/cosmogenesis/mol_cosmogenesis_demo.py`](/mol_cosmogenesis/mol_genesis_engine.py) |
 
 **Execution:**
 ```bash
@@ -97,4 +98,5 @@ MOL posits that **dimensionality is selected by minimization of descriptive load
 **MOL Foundation — Researching the fundamental meta-law of complexity**  
 📧 Contact: [rudiiik@yandex.ru](mailto:rudiiik@yandex.ru)  
 🌐 Website: [https://singular-mol.github.io/mol-foundation/](https://singular-mol.github.io/mol-foundation/)
+
 ```
