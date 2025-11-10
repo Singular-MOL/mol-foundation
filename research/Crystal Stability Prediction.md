@@ -213,9 +213,7 @@ The Law of Minimal Ontological Load is empirically validated as a universal prin
 4. Singular MOL GitHub: github.com/Singular-MOL/mol-foundation
 
 ---
-
 Contact:
 MOL Foundation· rudiiik@yandex.ru
 GitHub:Singular-MOL/mol-foundation
-
 ```
