@@ -3,13 +3,17 @@
 title: "MOL Genesis Engine — From Nothing to 3D Space — Emergence of Spatial Dimensionality via Minimal Ontological Load"
 description: "Simulation of space genesis from pre-geometric ontological tension. Demonstrates how 3D structure emerges when O(ℰ) exceeds critical threshold, without assuming prior geometry."
 tags: 
+  - law of minimal ontological load
   - cosmogenesis
   - ontological-load
   - emergent-spacetime
   - complex-systems
+  - ontological load minimization
   - phi-operator
   - mol-law
   - foundational-physics
+  - минимальная онтологическая нагрузка
+  - закон минимальной онтологической нагрузки
 license: "CC-BY-4.0"
 doi: "10.5281/zenodo.17445023"
 ---
@@ -26,7 +30,11 @@ Unlike conventional models that assume space as a background, this demo starts f
 
 ---
 
-## 🎯 Core Principle
+## 🎯 Core Principle: Law of Minimal Ontological Load (MOL)
+
+The Law of Minimal Ontological Load (MOL) states:
+
+Spacetime emerges as the optimal solution for minimizing ontological load in a pre-geometric system.
 
 ```math
 \boxed{E^* = \mathop{\mathrm{argmin}}\limits_{E \in \Omega} O(E) \quad \text{subject to:} \quad \mathcal{I}(E) \geq \mathcal{I}_{\min}}
