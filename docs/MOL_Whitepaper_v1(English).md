@@ -1,3 +1,4 @@
+
 ---
 title: "The Law of Minimal Ontological Load (MOL)"  
 description: "Universal meta-principle of self-organization across complex systems. Formally: E* = arg min O(E) subject to I ≥ I_min"  
