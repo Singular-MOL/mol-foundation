@@ -1,6 +1,6 @@
 ---
 
-📖 About
+About
 
 Crystallizer v2.0 is a deep analytical framework for complex, ambiguous questions. It forces the model to go through the same stages as a professional analyst: from deconstruction to generating new, deeper questions.
 
@@ -18,13 +18,13 @@ When NOT to use:
 
 ---
 
-🚀 How to Use
+How to Use
 
 Copy the prompt below, paste it into a chat with any modern LLM (Claude 3.5 Sonnet, GPT-o1, GPT-4o, Gemini 1.5 Pro), and replace [Здесь вставьте ваш сложный вопрос] with your actual question.
 
 ---
 
-📋 Full Prompt
+Full Prompt
 
 ```markdown
 # Role: Deep Systems Analyst
@@ -79,7 +79,7 @@ Copy the prompt below, paste it into a chat with any modern LLM (Claude 3.5 Sonn
 
 ---
 
-📊 Framework Structure
+Framework Structure
 
 Stage Name Purpose
 1 Deconstruction Break down the question, find consensus
