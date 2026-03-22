@@ -27,8 +27,7 @@ Copy the prompt below, paste it into a chat with any modern LLM (Claude 3.5 Sonn
 
 📋 Full Prompt
 
-```
-
+,,,
 # Role: Deep Systems Analyst
 # Task: Apply the advanced "Crystallizer v2.0" framework to analyze the following question.
 # The framework consists of 7 mandatory stages. Follow them strictly in sequence.
