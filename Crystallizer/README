@@ -1,4 +1,3 @@
-
 ---
 
 📖 About
@@ -27,6 +26,7 @@ Copy the prompt below, paste it into a chat with any modern LLM (Claude 3.5 Sonn
 
 📋 Full Prompt
 
+```markdown
 # Role: Deep Systems Analyst
 # Task: Apply the advanced "Crystallizer v2.0" framework to analyze the following question.
 # The framework consists of 7 mandatory stages. Follow them strictly in sequence.
@@ -75,7 +75,22 @@ Copy the prompt below, paste it into a chat with any modern LLM (Claude 3.5 Sonn
 
 ---
 **Output Format:** Present the final analysis as a structured report with clear headings for each of the 7 stages. Visually highlight the key insight and the new question.
+```
 
+---
+
+📊 Framework Structure
+
+Stage Name Purpose
+1 Deconstruction Break down the question, find consensus
+2 Map of Contradictions Identify where and why opinions diverge
+3 Archaeology of Assumptions Uncover hidden metaphysical, epistemological, cultural layers
+4 Synthesis of Key Insight Formulate a perception-shifting conclusion
+5 Stress Test Challenge the insight for resilience
+6 Practical Implications Derive actionable conclusions
+7 New Question Define the next, deeper question to ask
+
+---
 
 🎯 Example Usage
 
@@ -121,3 +136,21 @@ Found a way to improve the framework? Open an issue or submit a pull request.
 If you find this useful, consider starring the repository. It helps others discover the tool.
 
 ---
+
+Теперь по поводу английского названия:
+
+Русский English
+Кристаллизатор Crystallizer
+
+Это прямой, точный перевод, который сохраняет метафору «кристаллизации» (очищения, структурирования, оформления) мысли.
+
+---
+
+Если хочешь, я могу:
+
+1. Сделать отдельный файл prompt.md с только текстом промпта (без обертки)
+2. Добавить больше примеров использования
+3. Создать config.json с рекомендуемыми параметрами для разных моделей
+4. Написать краткую версию (lite) для бытовых задач
+
+Просто скажи что добавить или изменить.
